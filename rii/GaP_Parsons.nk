@@ -1,0 +1,24 @@
+; Refractive index spectrum for GaP by Parsons
+;
+; D. F. Parsons and P. D. Coleman. Far infrared optical constants of gallium phosphide. <a href="http://dx.doi.org/10.1364/AO.10.1683_1"><i>Appl. Opt.</i> <b>10</b>, 1683_1-1685 (1971)</a>
+;
+; Room temperature
+;
+; lambda/um    n     k
+54.369 3.4440  0.0
+57.048 3.4302  0.0
+59.602 3.4238  0.0
+61.728 3.4134  0.0
+66.684 3.4010  0.0
+71.803 3.3922  0.0
+77.797 3.3830  0.0
+84.962 3.3754  0.0
+90.992 3.3706  0.0
+106.15 3.3621  0.0
+113.74 3.3584  0.0
+138.75 3.3522  0.0
+168.46 3.3463  0.0
+188.79 3.3450  0.0
+216.59 3.3438  0.0
+296.21 3.3399  0.0
+366.03 3.3407  0.0

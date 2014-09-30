@@ -1,0 +1,6 @@
+# binary index files
+*.nkb
+
+# backup files
+*~
+

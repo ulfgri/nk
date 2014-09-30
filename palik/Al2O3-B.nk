@@ -1,0 +1,14 @@
+;UO 
+;UO Al2O3-B.ASC: Values of n and k for trigonal aluminum oxide from
+;UO additional references (based on model fitting by M. E. Thomas et
+;UO al.).  References are I, II, III, IV, V, VI, VII, VIII, IX, X, XI,
+;UO XII.  T = 295 K for (o), 20 C for (e).
+;UO 
+;UO From HANDBOOK OF OPTICAL CONSTANTS IN SOLIDS II edited by Edward D.
+;UO Palik. Copyright (c) 1991 by Academic Press, Inc. Reproduced by
+;UO permission of the publisher.
+;UO -----------------------------------------------------------------
+;UO 
+;UO      eV    cm-1    um         n(o)      k(o)      n(e) 
+;N  0
+;L  

@@ -1,0 +1,12 @@
+;UO 
+;UO SiC-c.ASC: Values of n for epitaxially grown cubic SiC from
+;UO various references in HOCII (pg. 707).  Reference is A.
+;UO 
+;UO From HANDBOOK OF OPTICAL CONSTANTS IN SOLIDS II edited by Edward D.
+;UO Palik. Copyright (c) 1991 by Academic Press, Inc. Reproduced by
+;UO permission of the publisher.
+;UO -----------------------------------------------------------
+;UO      eV    cm-1     um    n(10 um film)  n(0.61 um film)
+;UO -----------------------------------------------------------
+;N  9
+;L  Energy[eV]  Wavelength[cm-1]  Wavelength[um]  n(10  Wavelength[um]  film)  n(0.61  Wavelength[um]  film)  

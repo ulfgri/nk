@@ -1,0 +1,12 @@
+2014-September-30, Ulf Griesmann
+- renamed analyic/n_sodalime_glass.m --> n_sodalime.m
+- fixed and updated the README
+- added functions in the 'analytic' collection for MMA and PMMA;
+  provided by Cory D. Cress, NRL
+- added the main 'book' from http://refractiveindex.info
+- made a Git repository for the index collections.
+
+2014-January-24, Ulf Griesmann
+- renamed collection 'nist' into 'litho', because the contents
+  is primarily lithography related and also because the data in the 
+  collection are not in any way endorsed by NIST.

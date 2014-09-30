@@ -1,0 +1,11 @@
+; Refractive index spectrum for Se by Campel-o
+;
+; L. Gampel and F. M. Johnson, Index of refraction of single-crystal selenium, <a http://dx.doi.org/10.1364/JOSA.59.000072"><i>J. Opt. Soc. Am.</i>, <b>59</b>, 72-73 (1969)</a>
+;
+; Single-crystal selenium; 23 °C; Ordinary ray.
+;
+; lambda/um    n     k
+1.06 2.790  0.0
+1.15 2.737  0.0
+3.39 2.65  0.0
+10.6 2.64  0.0

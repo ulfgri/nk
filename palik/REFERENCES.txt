@@ -1,0 +1,2728 @@
+
+ Tables from the Handbook of Optical Constants of Solids, Volumes 1 and 2.
+ 
+  Edited by Edward D. Palik and Jean M. Bennett.
+ 
+  (c) Copyright 1995 The Optical Society of America
+ 
+ Most of the tables on these diskettes have been newly formatted tomake data 
+ import into spreadsheets or other programs easier.  Inseveral cases, new 
+ data have been added that were not available at the time that the original 
+ volumes were published.  Many of the data in the tables and references are from 
+ HANDBOOKOF OPTICAL CONSTANTS OF SOLIDS (HOC) I and II edited by 
+ Edward D.Palik Copyright (c) 1985, 1991 by Academic Press, Inc. reproducedby 
+ permission of the publisher.
+ 
+ 
+      After HOCI was published in 1985, I received a few inquiries
+ about putting the tables of n and k on floppy disks.  I had not
+ asked the critiquers to supply me with such disks.  For HOCII
+ published in 1991 I did ask the critiquers to put the n and k
+ data on disks.  While I did supply a few scientists with disks of
+ the tables in HOCII, they did not receive wide distribution.  
+      In 1993 I approached Frank Harris and Dr. Jean M. Bennett of
+ the Optical Society of America and volunteered to re-edit all the
+ tables in HOCI and HOCII into a more useful format for plotting
+ and manipulating purposes.  With permission from Academic Press,
+ all the tables from HOCI and a few from HOCII were laser scanned,
+ and these were added to my original collection from HOCII.   
+      Additional new or overlooked papers for the materials in
+ HOCI and HOCII have been put into a file NEWREFS.WP without
+ comment.  These may be of interest for updating a table yourself. 
+      While the conversion from eV to cm-1 was 8065.48 eV/cm-1 at
+ the time of HOCI, some of the critiquers used slightly different
+ values, such as 8065.5 and 8065.  This does not affect experiment
+ very much, however, because most physicists do not measure
+ wavelength to four or more figures.  We tried to give the
+ experimental unit to four or fewer figures and then the other two
+ units to four figures, so that the reader could spot the units in
+ which the original experiments had been done.  This is not
+ obvious in some of the tables where some units are given to five
+ figures on occasion.  Then translating between the units and
+ rounding off to four figures can become a problem.  Sometimes, we
+ have added a significant figure at 1000, 100, 10, 1 eV, etc., in
+ the adjacent cm-1 column to indicate which conversion factor was
+ used by the critiquer.
+      All cm-1 columns (often left blank above 50000 in HOCI and
+ HOCII) have been completed, even though it is hard to think in
+ terms of a number like 12586000 cm-1 (waves per cm). 
+      Exponential notation has been filled in for the extinction
+ coefficient, whereas it was omitted until the exponent changed in
+ HOCI and HOCII.  While k has been given to as many as four
+ figures, it is probably no better than two figures at any time.
+      While the bulk of the tables in HOCI and HOCII start at high
+ eV and then descend, occasionally, a table starts at low eV and
+ rises.  We have sorted these few tables, so that all eV now run
+ from high to low.  Also, while most of the unit columns are eV,
+ cm-1, µm in HOCI and HOCII, occasionaly, the cm-1 and µm columns
+ were reversed.  Now they all have been made consistent.  You may
+ want to convert to Ångstroms or nanometers in appropriate
+ spectral regions.
+      All the reference brackets in the original tables have been
+ removed and put into each file heading; footnotes have been
+ removed completely.  The reference numbers pertinent to each
+ table (file) are given in the heading of each file.      
+      Some of the numbers in the files have been rearranged for
+ better continuity and to save space.  In overlap regions there
+ are sometimes large discrepancies between data from different
+ laboratories.  You will have to read the original text to
+ discriminate if the original critiquer has not done this for you.
+      When two or three different crystal forms of a material were
+ given in the same table in HOCI and HOCII, e.g., ZnS, we have now
+ made separate files for ZnS-cubic, ZnS-hexagonal, ZnS-irtran. 
+ This is especially necessary for the alloy semiconductors PbSnTe,
+ HgCdTe, AlGaAs as each is really a "different" material.
+      The few non-room-temperature values for a few materials in
+ the original tables have been omitted from the files.
+      In some of the files for birefringent materials and
+ deposited materials, the columns are sometimes interrupted by a
+ new set of eV, cm-1, µm, n, k columns to list the ordinary and
+ extraordinary n's and k's or a new set of deposition parameters.  
+      Errors and typos in the original tables, found by me or
+ reported to me by others, have been corrected.
+      The index of files presented below lists the file name, the
+ crystal form of the material, page on which the original table
+ started in HOCI and HOCII, the left and right margin dimensions,
+ the Lft (left) or Dec (decimal) tab.  Usually metals,
+ semiconductors and dielectrics deposited on substrates are
+ polycrystalline or amorphous in form (except for epitaxy).  Most
+ metals are cubic but are labeled poly-x, because they were
+ deposited in some fashion.  Differences in optical constants
+ between crystalline and polycrystalline material are mostly due
+ to the deposition process.  Some materials are amorphous.
+      While the tables of metals, semiconductors and insulators in
+ HOCI and HOCII are nominally alphabetized by the name of the
+ material, the file names are listed by chemical symbol and
+ alphabetized accordingly.  The files for HOCI are on disk 1,
+ HOCII on disk 2 and the remainder of HOCII and README.WP,
+ REFHOCI.WP, REFHOCII.WP and NEWREFS.WP on disk 3.
+ 
+ LIST OF MATERIALS:
+ HOCI
+   Name           Xtal Form         Page         Margin     Tab   
+     Cu.WP        poly-x           283          1.0"      Lft 
+     Au.WP        poly-x           290          1.0"      Lft 
+     Ir.WP        poly-x           298          1.0"      Dec 
+     Mo.WP        poly-x           306          1.0"      Dec
+     Ni.WP        poly-x           317          1.0"      Dec
+     Os.WP        poly-x           326          1.0"      Dec
+     Pt.WP        poly-x           336          1.0"      Lft
+     Rh.WP        poly-x           344          1.0"      Dec
+     Ag.WP        poly-x           353          1.0"      Dec
+     W.WP         poly-x           360          1.0"      Dec
+     Al.WP        poly-x           395          1.0"      Dec    
+     
+     CdTe.WP      cubic            415          0.5"      Dec 
+     GaAs.WP      cubic            434          1.0"      Lft 
+     GaP.WP       cubic            451          1.0"      Lft 
+     Ge.WP        cubic            471          1.0"      Lft 
+     InAs.WP      cubic            482          1.0"      Lft 
+     InSb.WP      cubic            495          1.0"      Lft 
+     InP.WP       cubic            508          1.0"      Lft 
+     PbSe.WP      cubic            520          1.0"      Lft 
+     PbS.WP       cubic            530          1.0"      Lft 
+     PbTe.WP      cubic            541          1.0"      Lft 
+     Si.WP        cubic            555          0.5"      Lft 
+     Si-a.WP      amorphous        575          0.5"      Lft
+     SiC-6H.WP    hexagonal        590          1.0"      Lft 
+     ZnS-c.WP     cubic            606,12(II)   0.5"      Lft    
+     ZnS-h.WP     hexagonal        617          1.0"      Lft 
+     ZnS-ir.WP    irtran 2         612          1.0"      Lft
+   
+     As2Se3-m.WP  monoclinic       627          1.0"      Lft 
+     As2Se3-a.WP  vitreous         633          1.0"      Lft
+     As2S3-m.WP   monoclinic       647          0.5"      Lft
+     As2S3-a.WP   vitreous         657          1.0"      Lft
+     C-diamon.WP  cubic            670          1.0"      Lft 
+     LiF.WP       cubic            680,12(II)   1.0"      Lft 
+     LiNbO3.WP    trigonal         699          1.0"      Lft
+     KCl.WP       cubic            707          1.0"      Lft 
+     SiO2-t.WP    trigonal         724          1.0"      Lft
+     SiO2-a.WP    amorphous        753,12(II)   1.0"      Lft
+     SiO.WP       poly-x           767          1.0"      Lft 
+     Si3N4.WP     poly-x           774          1.0"      Lft
+     NaCl.WP      cubic            781          1.0"      Lft 
+     TiO2.WP      tetragonal       799          1.0"      Lft
+  
+ HOCII
+     TiC.WP       poly-x           305          1.0"      Lft
+     VC.WP        poly-x           306          1.0"      Lft
+     TiN.WP       poly-x           307          1.0"      Lft
+     VN.WP        poly-x           308          1.0"      Lft
+     Li.WP        poly-x           351          1.0"      Lft
+     Na.WP        poly-x           360          1.0"      Dec
+     K.WP         poly-x           370          1.0"      Dec
+     Cr.WP        poly-x           378          1.0"      Dec
+     Fe.WP        poly-x           389          1.0"      Dec
+     Nb.WP        poly-x           400          1.0"      Dec
+     Ta.WP        poly-x           411          1.0"      Dec
+     Be.WP        poly-x           428          1.0"      Dec 
+     Co-c.WP      cubic            445          1.0"      Dec 
+     Co-h.WP      hexagonal        443          1.0"      Dec 
+     Co-poly.WP   poly-x           443          1.0"      Dec
+     C-graphi.WP  hexagonal        455          0.5"      Dec 
+     Hg.WP        liquid           467          1.0"      Dec 
+     Pd.WP        poly-x           474          1.0"      Dec 
+     V.WP         poly-x           482          1.0"      Dec 
+    
+     AlAs.WP      cubic            494          1.0"      Dec
+     AlSb.WP      cubic            508          1.0"      Lft
+     Al1Ga9As.WP  cubic            529          1.0"      Lft
+     Al09Ga90.AsW cubic            521          1.0"      Lft
+     Al14Ga86.AsW cubic            529,534      1.0"      Lft
+     Al18Ga82.AsW cubic            538          1.0"      Lft
+     Al19Ga80.AsW cubic            522          1.0"      Lft
+     Al2Ga8As.WP  cubic            530          1.0"      Lft
+     Al3Ga7Te.WP  cubic            518,530,542  1.0"      Lft
+     Al31Ga68.AsW cubic            523          1.0"      Lft
+     Al36Ga64.AsW cubic            546          1.0"      Lft
+     Al4Ga6As.WP  cubic            530          1.0"      Lft
+     Al41Ga58.AsW cubic            524          1.0"      Lft
+     Al44Ga56.AsW cubic            550          1.0"      Lft
+     Al49Ga50.AsW cubic            525          1.0"      Lft
+     Al5Ga5As.WP  cubic            531          1.0"      Lft
+     Al54Ga46.AsW cubic            554          1.0"      Lft
+     Al59Ga41.AsW cubic            526          1.0"      Lft
+     Al6Ga4As.WP  cubic            531          1.0"      Lft
+     Al70Ga30.AsW cubic            527,532      1.0"      Lft
+     Al8Ga2As.WP  cubic            532          1.0"      Lft
+     Al80Ga19.AsW cubic            528          1.0"      Lft
+     Al9Ga1As.WP  cubic            533          1.0"      Lft
+     CdSe.WP      tetragonal       565          1.0"      Lft
+     CdS-h.WP     hexagonal        590          1.0"      Lft
+     CdS-poly.WP  poly-x           592          1.0"      Lft
+     GaSb.WP      cubic            603          1.0"      Lft 
+     Si25Ge75.WP  cubic            613          1.0"      Lft 
+     Si50Ge50.WP  cubic            621          1.0"      Lft
+     Si75Ge25.WP  cubic            629          1.0"      Lft
+     Pb91Sn09.TeW cubic            641          1.0"      Lft 
+     Pb9Sn1Te.WP  cubic            650          1.0"      Lft
+     Pb83Sn17.TeW cubic            641          1.0"      Lft
+     Pb8Sn2Te.WP  cubic            650          1.0"      Lft
+     Pb79Sn21.TeW cubic            652          1.0"      Lft
+     Hg09Cd91.TeW cubic            676          1.0"      Lft
+     Hg14Cd86.TeW cubic            676          1.0"      Lft
+     Hg24Cd76.TeW cubic            676          1.0"      Lft
+     Hg55Cd44.TeW cubic            685          1.0"      Lft
+     Hg55Cd45.TeW cubic            688          1.0"      Lft
+     Hg57Cd43.TeW cubic            676          1.0"      Lft
+     Hg7Cd3Te.WP  cubic            683          1.0"      Lft
+     Hg71Cd29.TeW cubic            670,683      1.0"      Lft
+     Hg79Cd20.TeW cubic            682          1.0"      Lft
+     Hg80Cd20.TeW cubic            670,682      1.0"      Lft
+     HgTe.WP      cubic            670          1.0"      Lft 
+     Se.WP        trigonal         697          0.5"      Lft
+     SiC-c.WP     cubic            707          1.0"      Lft
+     Te.WP        trigonal         716          0.5"      Lft
+     SnTe.WP      cubic            728          1.0"      Lft 
+     ZnSe-c.WP    cubic            751          1.0"      Lft 
+     ZnSe-ir.WP   irtran 4         754          1.0"      Lft
+     ZnTe.WP      cubic            755          1.0"      Lft 
+    
+     Al2O3-A.WP   trigonal         766          0.5"      Lft
+     Al2O3-B.WP   trigonal         766          1.0"      Lft
+     Al2O3-AP.WP  amorphous-poly-x 771          1.0"      Lft
+     ALON.WP      cubic            783          1.0"      Lft
+     BaTiO3.WP    tetragonal       797          1.0"      Lft
+     BeO-x.WP     hexagonal        809          1.0"      Lft 
+     BeO-cer.WP   ceramic          811          1.0"      Lft 
+     CaF2.WP      cubic            830          1.0"      Dec
+     C-film.WP    poly-x           844          1.0"      Lft 
+     CsI.WP       cubic            859          1.0"      Dec 
+     Cu2O.WP      cubic            880          1.0"      Lft 
+     CuO.WP       poly-x           882          1.0"      Lft 
+     MgAl2O4.WP   cubic            893          1.0"      Lft
+     MgF2.WP      tetragonal       903          1.0"      Dec
+     MgO.WP       cubic            943          1.0"      Lft
+     C2H4-pol.WP  orthorhombic     972          0.5"      Lft 
+     KBr.WP       cubic            994          1.0"      Dec
+     KDP.WP       tetragonal       1012         1.0"      Lft
+     KDDP.WP      tetragonal       1016         1.0"      Lft
+     ADP.WP       tetragonal       1014         1.0"      Lft
+     ADDP.WP      tetragonal       1017         1.0"      Lft
+     NaF.WP       cubic            1026         1.0"      Dec
+     SrTiO3.WP    cubic            1038         1.0"      Lft
+     ThF4.WP      poly-x           1056         1.0"      Dec
+     H2O.WP       liquid           1067         1.0"      Lft
+     Y2O3.WP      cubic            1088         1.0"      Lft
+ 
+ 
+ REFHOCI.ASC 
+ 
+ 
+ From  HANDBOOK OF OPTICAL CONSTANTS OF SOLIDS edited by Edward D.
+ Palik. Copyright (c) 1985 by Academic Press, Inc. Reproduced by
+ permission of the publisher.
+ 
+                     
+ -Cu 
+ 14. B. Dold and R. Mecke, "Über Gangsmetallen und deren
+ Leigerungen im Infrarot," Optik 22, 435 (1965). 
+ 22. H.J. Hagemann, W. Gudat, and C. Kunz, DESY Report SR-74/7,
+ Hamburg, 1974; "Optical constants from the far infrared to the x-
+ ray region: Mg, Al, Cu, Ag, Au, Bi, C, and Al2O3," J. Opt. Soc.
+ Am. 65, 742 (1975). 
+ 
+ -Au  
+ 10. L.R. Canfield, G. Hass, and W.R. Hunter, "The optical
+ properties of evaporated gold in the vacuum ultraviolet from 300
+ Å to 2000 Å," J. de Physique 25, 124 (1964). 
+ 14. B. Dold and R. Mecke, "Über Gangsmetallen und deren
+ Leigerungen im Infrarot," Optik 22, 435 (1965). 
+ 27. M.L. Theye, "Investigation of the optical properties of Au by
+ means of thin semitransparent films," Phys. Rev. B 2, 3060
+ (1970). 
+ 28. P.O. Nilsson, "Electronic structure of disordered alloys:
+ optical and photoemission measurements on Ag-Au and Cu-Au
+ alloys," Phys. Kondens. Mater. 11, 1 (1970). 
+ 39. H.J. Hagemann, W. Gudat, and C. Kunz, DESY Report SR-74/7,
+ Hamburg, 1974; "Optical constants from the far infrared to the x-
+ ray region: Mg, Al, Cu, Ag, Au, Bi, C, and Al2O3," J. Opt. Soc.
+ Am. 65, 742 (1975). 
+ 53. M.V. Zombeck, G.K. Austin, and D.T. Torgerson, "High
+ Resolution Mirror Assembly Optical System Study," Smithsonian
+ Astrophysical Observatory Report SAO-AXAF-80-003, Appendix B.
+ Table B1, Cambridge, Massachusetts, (1980). 
+ 
+ -Ir 
+ 7. J.H. Weaver, C.G. Olson, and D.W. Lynch, "Optical
+ investigation of the electronic structure of bulk Rh and Ir,"
+ Phys. Rev. B 15, 4115 (1977). 
+ 8. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Attwood and B.L. Henke, eds.), p.
+ 340, AIP Conf Proc. No. 75, American Institute of Physics, New
+ York, (1981). 
+ 
+ -Mo 
+ 10. D.W. Juenker, L.J. LeBlanc, and C.R. Martin, "Optical
+ properties of some transition metals," J. Opt. Soc. Am. 58, 164
+ (1968). 
+ 19. J.H. Weaver, D.W. Lynch, and C.G. Olson, "Optical properties
+ of V, Ta, and Mo from 0.1 to 30 eV," Phys. Rev. B 10, 501 (1974). 
+ 31. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Attwood and B.L. Henke, eds.), p.
+ 340, AIP Conf. Proc. No. 75, American Institute of Physics, New
+ York, (1981). 
+ 
+ -Ni 
+ 13. R.C. Vehse and E.T. Arakawa, "Optical and photoemissive
+ properties of nickel in the vacuum ultraviolet spectral region,"
+ Phys. Rev. 180, 695 (1969). 
+ 17. D.W. Lynch. R. Rosei, and J.H. Weaver, "Infrared and visible
+ optical properties of single-crystal Ni at 4 K," Solid State
+ Commun. 9, 2195 (1971). 
+ 39. L.A. Feldkamp, M.B. Stearns, and S.S. Shinozaki, "Electronic
+ structure and optical constants of Ni by electron inelastic
+ scattering," Phys. Rev. B 20, 1310 (1979). 
+ 40. M.V. Zombeck, G.K. Austin, and D.T. Torgerson, "High
+ Resolution Mirror Assembly Optical System Study," Smithsonian 
+ Astrophysical Observatory Report SAO-AXAF-80-003, Appendix B,
+ Table B1, Cambridge, Massachusetts, (1980). 
+ 41. "Ni" in Physik Daten-Physics Data, Optical Properties of
+ Metals, Part 1, (J.H. Weaver, C. Krafka, D.W. Lynch, and E.E.
+ Kohn, eds.), p. 95, Fachsinformazionszentrum, Karlsruhe, (1981). 
+ 42. R.J. Bartlett and C.G. Olson. "Absorption spectrum of Ni from
+ 40 to 200 eV," Phys. Stat. Solidi (b) 111, K33 (1982). 
+ 43. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Attwood and B.L. Henke, eds.), p.
+ 340, AIP Conf. Proc. No. 75, American Institute of Physics, New
+ York, (1981). 
+ 
+ -Os 
+ 1. J.T. Cox, G. Hass, J.B. Ramsey, and W.R. Hunter, "Reflectance
+ and optical constants of evaporated osmium in the vacuum
+ ultraviolet from 300 to 2000 Å," J. Opt. Soc. Am. 63, 435 (1973). 
+ 2. D.W. Lynch, C.G. Olson, and J.H. Weaver, in Physik Daten-
+ Physics Data, Optical Properties of Metals, Part 1, (J.H. Weaver,
+ C. Krafka, D.W. Lynch, and E.E. Koch, eds.), p. 253,
+ Fachsinformazionszentrum, Karlsruhe, (1981). 
+ 3. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Attwood and B.L. Henke, eds.), p.
+ 340, AIP Conf. Proc. No. 75, American Institute of Physics, New
+ York, (1981). 
+ 
+ -Pt 
+ 21. J.H. Weaver, "Optical properties of Rh, Pd, Ir, and Pt,"
+ Phys. Rev. B 11, 1416 (1975). 
+ 23. W.R. Hunter, D.W. Angel, and G. Hass, "Optical properties o f
+ evaporated platinum films in the vacuum ultraviolet from 220 Å to
+ 150 Å," J. Opt. Soc. Am. 69, 1695 (1979). 
+ 25. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Attwood and B.L. Henke, eds.), p.
+ 340, AIP Conf. Proc. No. 75, American Institute of Physics, New
+ York, (1981). 
+ 
+ -Rh 
+ 9. J.T. Cox, G. Hass, and W.R. Hunter, "Optical properties of
+ evaporated rhodium films deposited at various substrate
+ temperatures in the vacuum ultraviolet from 150 to 2000 Å," J.
+ Opt. Soc. Am. 61, 360 (1971). 
+ 15. J.H. Weaver, C.G. Olson, and D.W. Lynch, "Optical
+ investigation of the electronic structure of bulk Rh and Ir,"
+ Phys. Rev. B 15, 4115 (1977). 
+ 16. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Attwood and B.L. Henke, eds.), p.
+ 340, AIP Conf. Proc. No. 75, American Institute of Physics, New
+ York, (1981). 
+ 
+ -Ag
+ 14. B. Dold and R. Mecke, "Über Gangsmetallen und deren
+ Leigerungen im Infrarot," Optik 22, 435 (1965). 
+ 28. H.J. Hagemann, W. Gudat, and C. Kunz, DESY Report SR-74/7,
+ Hamburg (1974); H.J. Hagemann, W. Gudat, and C. Kunz, "Optical
+ constants from the far infrared to the x-ray region: Mg, Al, Cu,
+ Ag, Au, Bi, C, and Al2O3," J. Opt. Soc. Am. 65, 742 (1975). 
+ 33. P. Winsemius, F.F. van Kampen, H.P. Lengkeek, and C.G. van
+ Went, "Temperature dependence of the optical properties of Au,
+ Ag, and Cu," J. Phys. F 6, 1583 (1976). 
+ 35. G. Leveque, C.G. Olson, and D.W. Lynch, "Reflectance spectra
+ and dielectric functions for Ag in the region of interband
+ transitions," Phys. Rev. B 27, 4654 (1983). 
+ 
+ -W 
+ 26. J.H. Weaver, C.G. Olson, and D.W. Lynch, "Optical properties
+ of crystalline W from 0.1 to 32 eV," Phys. Rev. B 12, 1293
+ (1975). 
+ 36. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "Low-energy x-ray interaction coefficients:
+ Photoabsorption, scattering, and reflection," At. Data Nucl. Data
+ Tables 27, 1 (1982). 
+ 37. L.W. Bos and D.W. Lynch, "Optical properties of
+ antiferromagnetic chromium and dilute Cr-Mn and Cr-Re alloys,"
+ Phys. Rev. B 2, 4567 (1970). 
+ 
+ -Al 
+ 7. E. Shiles, T. Sasaki, M. Inokuti, and D.Y. Smith, "Self-
+ consistency and sum-rule tests in the Kramers-Kronig analysis of
+ optical data: Application to aluminum," Phys. Rev. B 22, 1612 
+ (1980). 
+ 15. D.Y. Smith and B. Segall, "Intra- and interband optical
+ transitions in the conduction-electron spectrum of aluminum,"
+ Bull. Am. Phys. Soc. 26, 209 (1981); D.Y. Smith and B. Segall,
+ (to be published). 
+ 28. H.E. Bennett, M. Silver, and E.J. Ashley, "Infrared
+ reflectance of aluminum evaporated in ultra-high vacuum," J. Opt.
+ Soc. Am. 53, 1089 (1963). 
+ 55. R.W. Ditchburn and G.H.C. Freeman, "The optical constants of
+ aluminum from 12 to 36 eV," Proc. Roy. Soc. London A 294, 20
+ (1966). 
+ 100. A.G. Mathewson and H.P. Myers, "Absolute value of the
+ optical constants of some pure materials," Physica Scripta 4, 291
+ (1971). 
+ 142. D.Y. Smith, E. Shiles, and M. Inokuti "The Optical
+ Properties and Complex Dielectric Function of Metallic Aluminum
+ from 0.04 to l04 eV." Argonne National Laboratory Report
+ ANL-83-24, Argonne, Illinois, March 1983. 
+ 
+ -CdTe 
+ 1. D.T.F. Marple and H. Ehrenreich, "Dielectric constant behavior
+ near band edges in CdTe and Ge," Phys. Rev. Lett. 8, 87 (1962). 
+ 3. T.H. Myers, S.W. Edwards, and J.F. Schetzina, "Optical
+ properties of polycrystalline CdTe films," J. Appl. Phys. 52,
+ 4231 (1981); T.H. Myers, S.W. Edwards, and J.F. Schetzina,
+ private communication (1983). 
+ 5. D.T.F. Marple, "Optical absorption edge in CdTe:
+ Experimental," Phys. Rev. 150, 728 (1966). 
+ 7. A.N. Pikhtin and A.D. Yas'kov, Sov. "Dispersion of the
+ refractive index of semiconductors with diamond and zinc-blende
+ structures," Phys. Semicond. 12, 622 (1978); Fiz. Tekh.
+ Poluprovodu. 12, 1047 (1978). 
+ 8. E.J. Danielewicz and P.D. Coleman, "Far-infrared optical
+ properties of selenium and cadmium telluride," Appl. Opt. 13,
+ 1164 (1974). 
+ 9. L.S. Ladd, "Cadmium telluride infrared transmitting material,"
+ Infrared Phys. 6, 145 (1966). 
+ 10. J.E. Harvey and W.L. Wolfe, "Refractive index of IRTRAN 6
+ (hot pressed CdTe) as a function of wavelength and temperature,"
+ J. Opt. Soc. Am. 65, 1267 (1975). 
+ 11. A.G. DeBell, E.L. Dereniak, J. Harvey, J. Nissley, J. Palmer,
+ A. Selvarajin, and W.L. Wolfe, "Cryogenic refractive indices and
+ temperature coefficients of cadmium telluride from 6 um to 22
+ µm," Appl. Opt. 18, 3114 (1979). 
+ 14. A. Manabe, A. Mitsuishi, and H. Yoshinga, "Infrared lattice
+ reflection spectra of infrared compounds," Jpn. J. Appl. Phys. 6,
+ 593 (1967). 
+ 15. A. Manabe, A. Mitsuishi, H. Yoshinaga, Y. Ueda, and H. Sei,
+ "Far infrared optical properties of cadmium telluride," Technol.
+ Rep. Osaka Univ. Jpn. 17, 263 (1967). 
+ 17. C.J. Johnson, G.H. Sherman, and R. Weil, "Far infrared
+ measurements of the dielectric properties of GaAs and CdTe at 300
+ K and 8 K," Appl. Opt. 8, 1667 (1969). 
+ 18. J.R. Birch and D.K. Murray, "A modular interferometer for
+ dispersive reflectivity measurements on highly absorbing solids,"
+ Infrared Phys. 18, 283 (1978). 
+ 21. T.F. Deutsch, "Absorption coefficient of infrared laser
+ window materials," J. Phys. Chem. Solids 34, 2091 (1973). 
+ 22. G.H. Sherman, "Measurement of the nonlinear susceptibilities
+ of tellurium, selenium, cadmium telluride, and indium antimonide
+ at 28.0 microns," Ph.D. dissertation, University of Illinois,
+ Urbana, Illinois (1972). 
+ 
+ -GaAs 
+ 1. C.J. Johnson, G.H. Sherman, and R. Weil, "Far infrared
+ measurements of the dielectric properties of GaAs and CdTe at 300
+ K and 8 K," Appl. Opt. 8, 1667 (1969). 
+ 2. A.H. Kachare, W.G. Spitzer, F.K. Euler, and A. Kahan,
+ "Infrared reflection on ion-implanted GaAs," J Appl. Phys. 45,
+ 2938 (1974). 
+ 3. R.T. Holm, J.W. Gibson, and E.D. Palik, "Infrared reflectance
+ studies of bulk and epitaxial-film n-type GaAs," J. Appl. Phys.
+ 48, 212 (1977). 
+ 4. W. Cochran, S.J. Fray, F.A. Johnson, J.E. Quarrington, and N.
+ Williams, "Lattice absorption in gallium arsenide," J. Appl.
+ Phys. Suppl. 32, 2102 (1961). 
+ 5. A.N. Pikhtin and A.D. Yas'kov, "Dispersion of the refractive
+ index of semiconductors with diamond and zinc-blende structures,"
+ Sov. Phys. Semicond. 12, 622 (1978); Fiz. Tekh. Poluprovodu. 12,
+ 1047 (1978). 
+ 6. C.P. Christensen, R. Joiner, S.K.T. Nieh, and W.H. Steier,
+ "Investigation of infrared loss mechanisms in high-resistivity
+ GaAs," J. Appl. Phys. 45, 4957 (1974). 
+ 7. H.C. Casey, D.D. Sell, and K.W. Wecht, "Concentration
+ dependence of the absorption coefficient for n- and p-type GaAs
+ between 1.3 and 1.6 eV," J. Appl. Phys. 46, 250 (1975). 
+ 8. J.B. Theeten, D.E. Aspnes, and R.P.H. Chang, "A new resonant
+ ellipsometric technique for characterizing the interface between
+ GaAs and its plasma-grown oxide," J. Appl. Phys. 49, 6097 (1978);
+ J.B. Theeten, D.E. Aspnes, and R.P.H. Chang, private
+ communication (1982). 
+ 9. H.R. Philipp and H. Ehrenreich, "Optical properties of
+ semiconductors," Phys. Rev. 129, 1550 (1963). 
+ 10. M. Cardona, W. Gudat, B. Sonntag, and P.Y. Yu, "Optical
+ absorption of semiconductors from 12 to 200 eV," in Proc. Int.
+ Conf Phys. Semicond., 10th, Cambridge, 1970. p. 208, U.S. Atomic
+ Energy Commission, Oak Ridge, Tennessee, (1970). 
+ 12. R.H. Stolen, "Temperature dependence of far-infrared
+ absorption in GaAs," Phys. Rev. B 11, 767 (1975); "Far-infrared
+ absorption in high resistivity GaAs," Appl. Phys. Lett. 15, 74
+ (1969). 
+ 19. B.O. Seraphin and H.E. Bennett, "Optical Constants," in
+ Semiconductors and Semimetals, Vol. 3, (R.K. Willardson and A.C.
+ Beer, eds.), p. 499, Academic Press, New York, (1967). 
+ 
+ -GaP 
+ 2. A.S. Barker, Jr., "Dielectric-dispersion and phonon line shape
+ in gallium phosphide," Phys. Rev. 165, 917 (1968). 
+ 3. D.F. Parsons and P.D. Coleman, "Far infrared optical constants
+ of gallium phosphide," Appl. Opt. 10, 1683 (1971). 
+ 4. S.A. Abagyan, G.A. Ivanov, Y.E. Shanurin, and V.I. Amosov,
+ "Refractive index of GaP in the infrared region," Sov. Phys.
+ Semicond. 5, 889 (1971); Fiz. Tekh. Poluprovodu. 5, 1001 (1971). 
+ 5. S.A. Abagyan, G.A. Ivanov, A.P. Izergin, and Y.E. Shanurin,
+ "Electron effective mass in GaP," Sov. Phys. Semicond. 6, 985
+ (1972); Fiz. Tekh. Poluprovodu. 6, 1130 (1972). 
+ 7. A.N. Pikhtin, V.T. Prokopenko, and A.D. Yas'kov, "Dispersion
+ of the refractive index of light and permittivity of gallium
+ phosphide," Sov. Phys. Semicond. 10, 1224 (1976); Fiz. Tekh.
+ Poluprovodu. 10, 2053 (1976). 
+ 8. W.G. Spitzer, M. Gershenzon, C.J. Forsch, and D.F. Gibbs,
+ "Optical absorption in n-type gallium phosphide," J. Phys. Chem.
+ Sol. 11, 339 (1959). 
+ 9. W. L. Bond, "Measurement of the refractive index of several
+ crystals," J. Appl. Phys. 36, 1674 (1965). 
+ 10. P.J. Dean and D.G. Thomas, "Intrinsic absorption edge
+ spectrum of gallium phosphide," Phys. Rev. 150, 690 (1966). 
+ 11. P.J. Dean, G. Kaminsky, and R.B. Zetterstrom, "Intrinsic
+ optical absorption of gallium phosphide between 2.33 and 3.12
+ eV," J. Appl. Phys. 38, 3551 (1967). 
+ 13. D.F. Nelson and E.H. Turner, "Electro-optic and piezoelectric
+ coefficients and refractive index of gallium phosphide," J. Appl.
+ Phys. 39, 3337 (1968). 
+ 15. A.N. Pikhtin and D.A. Yas'kov. "Infrared absorption in
+ gallium phosphide," Phys. Stat. Solidi 34, 815 (1969). 
+ 16. H.R. Philipp and H. Ehrenreich, "Ultraviolet Optical
+ Properties," in Semiconductors and Semimetals, Vol. 3, (R.K.
+ Willardson and A.C. Beer, eds.), Chapter 4, p. 93, Academic
+ Press, New York, (1967). 
+ 17. M. Cardona, W. Gudat, B. Sonntag, and P.Y. Yu, "Optical
+ absorption of semiconductors from 12 to 200 eV," in Proc. Int.
+ Conf. Phys. Semicond. Cambridge, 1970, p. 208, U.S. Atomic Energy
+ Commission, Oak Ridge, Tennessee, (1970). 
+ 18. M. Cardona, W. Gudat, E.E. Koch. M. Skibowski, B. Sonntag,
+ and P. Yu, "Core transitions and density of states in the III-V
+ semiconductors," Phys. Rev. Lett. 25, 659 (1970). 
+ 19. S.E. Stokowski and D.D. Sell, "Reflectivity and (dR/dE)/R of
+ GaP bwetween 2.5 and 6.0 eV," Phys. Rev. B 5, 1636 (1972). 
+ 20. W. Gudat, E.E. Koch, P.Y. Yu, M. Cardona, and C.M. Penchina,
+ "Core levels of III-V semiconductors," Phys. Stat. Solidi (b) 52,
+ 505 (1972). 
+ 23. B.O. Seraphin and H.E. Bennett, "Optical Constants," in
+ Semiconductors and Semimetals, Vol. 3, (R.K. Willardson and A.C.
+ Beer, eds.), p. 499, Academic Press, New York, (1967). 
+ 24. D.E. Aspnes and A.A. Studna. "Dielectric functions and
+ optical parameters of Si, Ge, GaP, GaAs, GaSb, InP, InAs, and
+ InSb from 1.5 to 6.0 eV," Phys. Rev. B 27, 985 (1983); D.E.
+ Aspnes and A.A. Studna, private communication (1982). 
+ 
+ -Ge 
+ 1. H.B. Briggs, "Optical effects in bulk silicon and germanium,"
+ Phys. Rev. 77, 287 (1950). 
+ 4. H.W. Icenogle, B.C. Platt, and W.L. Wolfe, "Refractive indexes
+ and temperature coefficients of germanium and silicon," Appl.
+ Opt. 15, 2348 (1976). 
+ 5. R.P. Edwin, M.T. Dudermel, and M. Lamare. "Refractive index
+ measurements of a germanium sample," Appl. Opt 17, 1066 (1978). 
+ 6. N.P. Barnes and M.S. Piltch, "Temperature-dependent Sellmeier
+ coefficients and nonlinear optics average power limit for
+ germanium," J. Opt. Soc. Am. 69, 178 (1979). 
+ 8. R.J. Collins and H.Y. Fan, "Infrared lattice absorption bands
+ in germanium, silicon, and diamond," Phys. Rev. 93, 674 (1954). 
+ 10. J.R. Aronson, H.G. McLinden, and P.J. Gielisse, "Low-
+ temperature far-infrared spectra of germanium and silicon," Phys.
+ Rev. 135, A785 (1964). 
+ 11. D.L. Stierwalt and R.F. Potter, "Infrared spectral emittance
+ of Si, Ge and CdS," in Rep. Int. Conf. Phys. Semicond., Exeter,
+ 1962, p. 513, The Institute of Physics and the Physical Society,
+ London, (1962). 
+ 12. C.M. Randall and R.D. Rawcliffe, "Refractive indices of
+ germanium, silicon and fused quartz in the far infrared," Appl.
+ Opt. 6, 1889 (1967). 
+ 15. W.C. Dash and R. Newman, "Intrinsic optical absorption in
+ single-crystal germanium and silicon at 77 oK and 300 oK," Phys.
+ Rev. 99, 1151 (1955). 
+ 16. M. Cardona, "Optical constants of insulators: Dispersion
+ relations," in Optical Properties of Solids, (S. Nudelman and
+ S.S. Mitra, eds.), p. 137, Plenum, New York, (1969). 
+ 17. H.R. Philipp and E.A. Taft, "Optical constants of germanium
+ in the region 1 to 10 eV," Phys. Rev. 113, 1002 (1959). 
+ 18. R.F. Potter, "Optical constants of germanium in spectral
+ region from 0.5 eV to 3.0 eV," Phys. Rev. 150, 562 (1966). 
+ 19. D.E. Aspnes and A.A. Studna, "Dielectric functions and
+ optical parameters of Si, Ge, GaP, GaAs, GaSb, InP, InAs, and
+ InSb from 1.5 to 6.0 eV," Phys. Rev. B 27, 985 (1983); D.E.
+ Aspnes, private communication (1983). 
+ 21. M. Cardona, W. Gudat, B. Sonntag, and P.Y. Yu, "Optical
+ absorption of semiconductors from 12 to 200 eV," in Proc. 10th
+ Int. Conf. Phys. Semicond., Cambridge, 1970, p. 208, U.S. Atomic
+ Energy Commission, Oak Ridge, Tennessee, (1970). 
+ 22. A.P. Lukirskii, E.P. Savinov, O.A. Ershov, and Y.F. Shepelov,
+ "Reflection coefficient of radiation in the wavelength range from
+ 23.6 to 113 Å for a number of elements and substances and the
+ determination of the refractive index and absorption
+ coefficient," Opt. Spectrosc. 16, 168 (1964); Opt. Spektrosk. 16,
+ 310 (1964). 
+ 
+ -InAs 
+ 1. H.R. Philipp and H. Ehrenreich, "Optical properties of
+ semiconductors," Phys. Rev. 129, 1550 (1963). 
+ 2. B.O. Seraphin and H.E. Bennett, "Optical Constants," in
+ Semiconductors and Semimetals, Vol. 3, (R.K. Willardson and A.C.
+ Beer, eds.), p. 499, Academic Press. New York, (1967). 
+ 4. D.E. Aspnes and A.A. Studna, "Dielectric functions and optical
+ parameters of Si, Ge, GaP, GaAs, GaSb, InP, InAs, and InSb from
+ 1.5 to 6.0 eV," Phys. Rev. B 27, 985 (1983); D.E. Aspnes and A.A.
+ Studna. private communication (1982). 
+ 6. J.R. Dixon and J.M. Ellis, "Optical properties of n-type
+ indium arsenide in the fundamental absorption edge region," Phys.
+ Rev. 123, 1560 (1961). 
+ 7. O.G. Lorimor and W.G. Spitzer, "Infrared refractive index and
+ absorption of InAs and CdTe," J. Appl. Phys. 36, 1841 (1965). 
+ 8. A.N. Pikhtin and A.D. Yas'kov, "Dispersion of the refractive
+ index of semiconductors with diamond and zinc-blende structures,"
+ Sov. Phys. Semicond. 12, 622 (1978); Fiz. Tekh. Poluprovodu. 12,
+ 1047 (1978). 
+ 14. A. Memon, T.J. Parker, and J.R. Birch, "A study of the far
+ infrared dielectric response of InAs at room temperature by
+ dispersive Fourier transform spectrometry," Proc. Soc. Photo-Opt.
+ Instrum. Eng. 289, 20 (1981). 
+ 
+ -InSb 
+ 1. M. Cardona, W. Gudat, B. Sonntag, and P.Y. Yu, "Optical
+ absorption of semiconductors from 12 to 200 eV," in Proc. Int.
+ Conf. Phys. Semicond., 10th, Cambridge, 1970, p. 208, U. S.
+ Atomic Energy Commission, Oak Ridge, Tennessee, (1970). 
+ 2. H.R. Philipp and H. Ehrenreich, "Optical properties of
+ semiconductors," Phys. Rev. 129, 1550 (1963). 
+ 4. D.E. Aspnes and A.A. Studna, "Dielectric functions and optical
+ parameters of Si, Ge, GaP, GaAs, GaSb, InP, InAs, and InSb from
+ 1.5 to 6.0 eV," Phys. Rev. B 27, 985 (1983); D.E. Aspnes and A.A.
+ Studna, private communication (1982). 
+ 5. T.S. Moss, S.D. Smith, and T.D.F. Hawkins, "Absorption and
+ dispersion of indium antimonide," Proc. Phys. Soc. London 70B,
+ 776 (1957). 
+ 8. S.W. Kurnick and J.M. Powell, "Optical absorption in pure
+ single crystal InSb at 290 oK and 78 oK," Phys. Rev. 116, 597
+ (1959). 
+ 9. H. Yoshinaga and R.A. Oetjen, "Optical properties of indium
+ antimonide in the region from 20 to 200 microns," Phys. Rev. 101,
+ 526 (1956). 
+ 10. R.B. Sanderson, "Far infrared optical properties of indium
+ antimonide," J. Phys. Chem. Solids 26, 803 (1965). 
+ 
+ -InP 
+ 1. M. Cardona, "Optical studies of the band structure of InP," J.
+ Appl. Phys. 32, 958 (1961); "Infrared dielectric constant and
+ ultraviolet optical properties of solids with diamond, zinc
+ blende, wurtzite, and rocksalt structure," J. Appl. Phys. 36,
+ 2181 (1965). 
+ 3. D.E. Aspnes and A.A. Studna, "Dielectric functions and optical
+ parameters of Si, Ge, GaP, GaAs, GaSb, InP, InAs, and InSb from
+ 1.5 to 6.0 eV," Phys. Rev. B 27, 985 (1983); D.E. Aspnes and A.A.
+ Studna, private communication (1982). 
+ 4. G.D. Pettit and W.J. Turner, "Refractive index of InP," J.
+ Appl. Phys. 36, 2081 (1965). 
+ 5. R. Newman. "Optical properties of n-type InP," Phys. Rev. 111,
+ 1518 (1958). 
+ 6. B.O. Seraphin and H.E. Bennett, "Optical Constants," in
+ Semiconductors and Semimetals, Vol. 3, (R.K. Willardson and A.C.
+ Beer eds.), p. 499, Academic Press, New York, (1967). 
+ 7. A.N. Pikhtin and A.D. Yas'kov, "Dispersion of the refractive
+ index of semiconductors with diamond and zinc-blende structures,"
+ Sov. Phys. Semicond. 12, 622 (1978); Fiz. Tekh. Poluprovodu. 12,
+ 1047 (1978). 
+ 8. W.N. Reynolds, M.T. Lilburne, and R.M. Dell, "Some properties
+ of semiconducting indium phosphide," Proc. Phys. Soc. London 71,
+ 416 (1958). 
+ 15. H. Jamshidi and T.J. Parker, "The far infrared optical
+ properties of InP at 6 and 300 K," in Int. Meet. Infrared Mm
+ Waves, 7th, Marseilles, 1983; H. Jamshidi and T.J. Parker,
+ private communication (1983). 
+ 
+ -PbSe 
+ 2. H. Burkhard, R. Geick, P. Kästner, and K.H. Unkelbach,
+ "Lattice vibrations and free carrier dispersion in PbSe," Phys.
+ Stat. Solidi (b) 63, 89 (1974). 
+ 3. P.M. Amirtharaj, B.L. Bean, and S. Perkowitz, "Far-infrared
+ studies in epitaxial films of III-V and IV-VI semiconductors," J.
+ Opt. Soc. Am. 67, 939 (1977). 
+ 7. K.V. Vyatkin and A.P. Shotov, "Optical properties of epitaxial
+ PbSe films," Sov. Phys. Semicond. 14, 785 (1980); Fiz. Tekh.
+ Poluprovodu. 14, 1331 (1980). 
+ 10. J.N. Zemel, J.D. Jensen, and R.B. Schoolar, "Electrical and
+ optical properties of epitaxial films of PbS, PbSe, PbTe, and
+ SnTe," Phys. Rev. A 140, 330 (1965). 
+ 12. W.W. Scanlon, "Recent advances in the optical and electronic
+ properties of PbS, PbSe, PbTe and their alloys," J. Phys. Chem
+ Solids 8, 423 (1959). 
+ 13. T.S. Moss, Optical Properties of Semiconductors, p. 189.
+ Butterworths, London, (1959). 
+ 17. M. Cardona and D.L. Greenaway, "Optical properties and band
+ structure of group IV-VI and group V materials," Phys. Rev. 133,
+ A1685 (1964). 
+ 
+ -PbS 
+ 2. R. Geick, "Measurement and analysis of the fundamental lattice
+ vibration spectrum of PbS," Phys. Lett. 10, 51 (1964). 
+ 3. R.B. Schoolar and J.N. Zemel, "Preparation of single-crystal
+ films of PbS," J. Appl. Phys. 35, 1848 (1964). 
+ 4. R.B. Schoolar and J.R. Dixon, "Optical constants of lead
+ sulfide in the fundamental absorption edge region," Phys. Rev.
+ 137, A667 (1965). 
+ 5. J.N. Zemel, J.D. Jensen, and R.B. Schoolar, "Electrical and
+ optical properties of epitaxial films of PbS, PbSe, PbTe, and
+ SnTe," Phys. Rev. A 140, 330 (1965). 
+ 9. W.W. Scanlon, "Polar Semiconductors," in Solid State Phys. 9,
+ 83 (1959). 
+ 10. P.R. Wessel, "Use of thin films in determining the optical
+ constants of PbS from 1 to 5 eV," Phys. Rev. 153, 836 (1967). 
+ 12. M. Cardona and D.L. Greenaway, "Optical properties and band
+ structure of group IV-VI and group V materials," Phys. Rev. 133,
+ A1685 (1964). 
+ 13. C.E. Rossi and W. Paul, "Optical properties of epitaxial PbS
+ films in the energy range 2-6 eV," J. Appl. Phys. 38, 1803
+ (1967). 
+ 14. M. Cardona and R. Haensel, "Optical properties of some
+ compound semiconductors in the 36-150-eV region," Phys. Rev. B 1,
+ 2605 (1970). 
+ 15. M. Cardona, C.M. Penchina, E.E. Koch, and P.Y. Yu, "Optical
+ and photoelectric properties of the lead chalcogenides," Phys.
+ Stat. Solidi (b) 53, 327 (1972). 
+ 
+ -PbTe 
+ 4. G. Bauer, H. Burkhard, W. Jantsch, F. Unterleitner, A.
+ Lopez-Otero, and G. Schleussner, "Influence of free carriers and
+ lattice defects on the TO-phonon softening in PbTe," in Proc.
+ Inter. Conf. Lattice Dynamics, (M. Balkanski, ed.), p. 669.
+ Flammarion, Paris, 1978.   
+ 5. D.D. Buss and M.A. Kinch, "Far infrared magneto-optical
+ measurements on PbTe," J. Nonmet. 1, 111 (1973). 
+ 6. H. Burkhard, G. Bauer, and A. Lopez-Otero. "Submillimeter
+ spectra of TO-phonon mode softening in PbTe," J. Opt. Soc. Am.
+ 67, 943 (1979). 
+ 7. S. Perkowitz, "Free carriers, coupled modes, and the
+ generalized dielectric function in PbTe," Phys. Rev. B 12, 3210
+ (1975). 
+ 8. J.R. Lowney and S.D. Senturia, "Optical dielectric constant of
+ Pb1-xSnxTe in the narrow-gap region," J. Appl. Phys. 47, 1771
+ (1976). 
+ 9. J.N. Zemel, J.D. Jensen, and R.B. Schoolar, "Electrical and
+ optical properties of epitaxial films of PbS, PbSe, PbTe, and
+ SnTe," Phys. Rev. 140, A330 (1965). 
+ 10. N. Piccioli, J.M. Beson, and M. Balkanski, "Optical constants
+ and band gap of PbTe from thin film studies between 25 and 300
+ oK," J. Phys. Chem. Solids. 35, 971 (1974). 
+ 11. T.R. Globus, B.L. Gelmont, K.I. Geiman, V.A. Kondrashov, and
+ A. V. Matveenko, "Optical absorption and band structure PbTe,"
+ Sov. Phys. JETP 53, 1000 (1981); Zh. Eksp. Teor. Fiz. 80, 1926
+ (1981). 
+ 12. M. Cardona and D.L. Greenaway, "Optical properties and band
+ structure of group IV-VI and group V materials," Phys. Rev. 133,
+ A1685 (1964). 
+ 13. D.M. Korn and R. Braunstein, "Reflectivity and wavelength-
+ modulation-derivative reflection of Pb1-xSnxTe," Phys. Rev. B 5,
+ 4837 (1972). 
+ 14. M. Cardona and R. Haensel, "Optical properties of some
+ compound semiconductors in the 36-150-eV region," Phys. Rev. B 1,
+ 2605 (1970). 
+ 15. W.E. Tennant and J.A. Cape, "Study of the  dielectric
+ function of PbSnTe epitaxial films by far-infrared reflectivity,"
+ Phys. Rev. B 13, 2540 (1976). 
+ 17. E.G. Bylander and M. Hass, "Dielectric constant and
+ fundamental lattice frequency of lead telluride," Solid State
+ Commun. 4, 51 (1966). 
+ 21. S.L. McCarthy, W.H. Weber, and M. Mikkor, "Optical absorption
+ in epitaxial PbTe films on BaF2," J. Appl. Phys. 45, 4907 (1974). 
+ 22. H.R. Riedl, "Free-carrier absorption in p-type PbTe," Phys.
+ Rev. 127, 162 (1962). 
+ 24. W.W. Scanlon, "Recent advances in the optical and electronic
+ properties of PbS, PbSe, PbTe and their alloys," J. Phys. Chem.
+ Solids 8, 423 (1959). 
+ 31. V.M. Walz, "Refractive Index of Pb(1-x)Sn(x)Te, Pb(1-
+ y)Sn(y)Se and Theoretical Calculations for Pb(1-x)Sn(x)Te and
+ Pb(1-y)Sn(y)Se 10.6 Micron Heterostructure Injection Lasers,"
+ thesis, Naval Postgraduate School, Monterey, California (1972);
+ available from NTIS, Springfield, Virginia, order No. AD 767-677. 
+ 
+ -Si 
+ 1. W. Primak, "Refractive index of silicon," Appl. Opt. 10, 759
+ (1971). 
+ 2. C.D. Salzberg and J.J. Villa, "Infrared refractive indexes of
+ silicon germanium and modified selenium glass," J. Opt. Soc. Am.
+ 47, 244 (1957). 
+ 3. D.F. Edwards and E. Ochoa, "Infrared refractive index of
+ silicon," Appl. Opt. 19, 4130 (1980). 
+ 5. E.V. Loewenstein, D.R. Smith, and R.L. Morgan, "Optical
+ constants of far infrared materials. 2: Crystalline solids,"
+ Appl. Opt. 12, 398 (1973). 
+ 6. C.M. Randall and R.D. Rawcliffe, "Refractive indices of
+ germanium, silicon and fused quartz in the far infrared," Appl.
+ Opt. 6, 1889 (1967). 
+ 8. H.H. Li, "Refractive index of silicon and germanium and its
+ wavelength and temperature derivatives," J. Phys. Chem. Ref. Data
+ 9, 561 (1980). 
+ 12. A. Hordvik and L. Skolnik, "Photoacoustic measurement of
+ surface and bulk absorption in HF/DF laser window materials,"
+ Appl. Opt. 16, 2919 (1977). 
+ 14. F.A. Johnson, "Lattice absorption bands in silicon," Proc.
+ Phys. Soc. London 73, 265 (1959). 
+ 15. B. Bendow, H.G. Lipson, and S.P. Yukon, "Residual lattice
+ absorptioon in semiconducting crystals: Frequency and temperature
+ dependence," Appl. Opt. 16, 2909 (1977). 
+ 19. M.N. Afsar and J.B. Hasted, "Submillimetre wave mesurements
+ of optical constants of water at various temperatures," Infrared
+ Phys. 18, 835 (1978). 
+ 20. D.E. Aspnes and J.B. Theeten, "Spectroscopic analysis of the
+ interface between Si and its thermally grown oxide," J.
+ Electrochem. Soc. 127, 1359 (1980); D.E. Aspnes and J.B. Theeten,
+ private communication (1980). 
+ 21. R. Hulthen, "Optical constants of epitaxial sillicon in the
+ region 1-3.3 eV," Physica Scripta 12, 342 (1975). 
+ 23. G.G. McFarlane and V. Roberts, "Infrared absorption of
+ silicon near the lattice edge," Phys. Rev. 98, 1865 (1955). 
+ 26. H.R. Philipp, "Influence of oxide layers on the determination
+ of the optical properties of silicon," J. Appl. Phys. 43, 2836
+ (1972); H.R. Philipp, private communication (1982). 
+ 29. W.R. Hunter, private communication of unpublished data
+ (1982). 
+ 30. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Attwood and B.L. Henke, eds.), p.
+ 340, AlP Conference Proc., No. 75, American Institute of Physics,
+ New York, (1981). 
+ 31. C. Gähwiller and F.C. Brown, "Photoabsorption near the LII,III
+ edge of silicon," in Proc. Int. Conf. Phys. Semicond., 10th,
+ Cambridge, 1970, p. 213, U. S. Atomic Energy Commission, Oak
+ Ridge, Tennessee, (1970). 
+ 32. F.C. Brown, R.Z. Bachrach, and M. Skibowski, "L2,3 threshhold
+ spectra of doped silicon and silicon compounds," Phys. Rev. B 15,
+ 478 (1977). 
+ 
+ -Si-a 
+ 1. D.T. Pierce and W.E. Spicer, "Electronic structure of
+ amorphous Si from photoemission and optical studies," Phys. Rev.
+ B 5, 3017 (1972). 
+ 2. G. Weiser, D. Ewald, and M. Milleville, "Reflectivity and
+ dielectric function of glow-discharge silicon," J. Non-Cryst.
+ Solids 35/36, 447 (1980). 
+ 3. M.H. Brodsky, R.S. Title, K. Weiser, and G.D. Pettit,
+ "Structural, optical, and electrical properties of amorphous
+ silicon films," Phys. Rev. B 1, 2632 (1970). 
+ 4. P.J. Zanzucchi, C.R. Wronski, and D.E. Carlson, "Optical and
+ photoconductive properties of discharge-produced amorphous
+ silicon," J. Appl. Phys. 48, 5227 (1977). 
+ 5. G. Moddel, D.A. Anderson, and W. Paul, "Derivation of the low
+ energy optical-absorption spectra of a-Si:H from
+ photoconductivity," Phys. Rev. B 22, 1918 (1980). 
+ 6. F. Evangelisti, P. Fiorini, G. Fortunato, A Frova, C.
+ Giovannella, and R. Peruzzi, "Gap states in a-Si:H by
+ photoconductivity and absorption," J. Non-Cryst. Solids 55, 191
+ (1983). 
+ 7. E.C. Freeman and W. Paul, "Optical constants of rf sputtered
+ amorphous Si," Phys. Rev. B 20, 716 (1979). 
+ 8. M.H. Brodsky and A. Lurio, "Infrared vibrational spectra of
+ amorphous Si and Ge," Phys. Rev. B 9, 1646 (1974). 
+ 9. F.C. Brown and O.P. Rustgi, "Extreme ultraviolet transmission
+ of crystalline and amorphous silicon," Phys. Rev. Lett. 28, 497
+ (1972). 
+ 
+ -SiC-h 
+ 1. V. Rehn, J.L. Stanford, and V.O. Jones, "Optical constants and
+ reflectivity of type 6H SiC in the range 4-25 eV," in Proc. Int.
+ Conf. Phys. Semicond., 13th, Rome, 1976 (F.G. Fumi, ed.), p. 985,
+ Typografia Marves, Rome, (1976). 
+ 2. G. Leveque and D.A. Lynch, private communication (1982). 
+ 3. W.J. Choyke and L. Patrick, "Higher absorption edge in 6H
+ SiC," Phys. Rev. 172, 769 (1968). 
+ 4. R. Groth and E. Kauer, "Absorption freier Ladungsträger in a-
+ SiC-Kristallen," Phys. Stat. Solidi 1, 445 (1961). 
+ 5. N.W. Thibault, "Morphological and structural crystallography
+ and optical properties of silicon carbide (SiC)," Am. Mineral.
+ 29, 327 (1944). 
+ 6. P.T.B. Shaffer, "Refractive index, dispersion, and
+ birefringence of silicon carbide polytypes," Appl. Opt. 10, 1034
+ (1971). 
+ 7. W.J. Choyke and L. Patrick, "Refractive index and low-
+ frequency dielectric constant of 6H SiC," J. Opt. Soc. Am. 58,
+ 377 (1968). 
+ 8. W.G. Spitzer, D.A. Kleinman, C.J. Frosch, and D.J. Walsh,
+ "Infrared properties of silicon carbide," in Silicon Carbide, A
+ High Temperature Semiconductor, (J.R. O'Connor and J. Smiltens,
+ eds.), p. 347., Pergamon, New York, (1960). 
+ 
+ -ZnS-c 
+ 20. S.L. Czyzak, D.C. Reynolds, R.C. Allen, and C.C. Reynolds,
+ "On the properties of single cubic zinc sulfide crystals," J.
+ Opt. Soc. Am. 44, 864 (1954). 
+ 21. B.L. Henke, P.L. Lee, T.J. Tanaka, R.L. Shimabukuro, and B.F.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D. T. Attwood and B. L Henke, eds.),
+ p. 340, AIP Conf. Proc. No. 75., American Institute of Physics,
+ New York, (1981). 
+ 22. M. Cardona and R. Haensel, "Optical properties of some
+ compound semiconductors in the 36-150-eV region," Phys. Rev. B l,
+ 2605 (1970). 
+ 23. W.R. Hunter, private communication, (1983). 
+ 24. W.R. Hunter, D.W. Angel, and G. Hass, "Optical properties of
+ evaporated films of ZnS in the vacuum ultraviolet from 160 to
+ 2000 Å," J. Opt. Soc. Am. 68, 1319 (1978). 
+ 26. M. Cardona and G. Harbeke, "Optical properties and band
+ structure of wurtzite-type crystals and rutile," Phys. Rev. 137,
+ A1467 (1965). 
+ 35. A.N. Pikhtin and A.D. Yas'kov, "Dispersion of the refractive
+ index of semiconductors with diamond and zinc-blende structures,"
+ Sov. Phys. Semicond. 12, 622 (1978); Fiz. Tekh. Poluprovodu. 12,
+ 1047 (1978). 
+ 39. C.A. Klein and R.N. Donadio, "Infrared-active phonons in
+ cubic zinc sulfide," J. Appl. Phys. 51, 797 (1980). 
+ 40. T. Deutsch, "Lattice absorption in zinc sulphide," in Proc.
+ Int. Conf. Phys. Semicond., 6th, Exeter 1962, p. 505, The
+ Institute of Physics and the Physical Society, London, (1962). 
+ 43. A. Manabe, A. Mitsuishi and H. Yoshinaga, "Infrared lattice
+ reflection spectra of infrared compounds," Jpn. J. Appl. Phys. 6,
+ 593 (1967). 
+ 44. T. Hattori, Y. Homma, A. Mitsuishi and M. Tacke, "Indices of
+ refraction of ZnS, ZnSe, ZnTe, CdS, and CdTe in the far
+ infrared," Opt. Commun. 7, 229 (1973). 
+ 
+ -ZnS-h 
+ 26. M. Cardona and G. Harbeke, "Optical properties and band
+ structure of wurtzite-type crystals and rutile," Phys. Rev. 137,
+ A1467 (1965). 
+ 43. A. Manabe, A. Mitsuishi and H. Yoshinaga, "Infrared lattice
+ reflection spectra of infrared compounds," Jpn. J. Appl. Phys. 6,
+ 593 (1967). 
+ 48. T.M. Bieniewski and S.J. Czyzak, "Refractive indexes of
+ single hexagonal ZnS and CdS crystals," J. Opt. Soc. Am. 53, 496
+ (1963). 
+ 50. A.N. Pikhtin and A.D. Yas'kov, "Refractive index and
+ birefringence of semiconductors with wurtzite structure," Sov.
+ Phys. Semicond. 15, 8 (1981); Fiz. Tekh. Poluprovodu. 15, 15
+ (1981). 
+ 
+ -ZnS-IR 
+ 57. Eastman Kodak, "Kodak IRTRAN infrared optical materials,"
+ publication No. U-72, Rochester, New York (1981). 
+ 
+ -As2Se3-m 
+ 1. R. Zallen, M.L. Slade, and A.T. Ward, Phys. "Lattice
+ vibrations and interlayer interactions in crystalline As2S3 and
+ As2Se3," Rev. B 3, 4257 (1971). 
+ 2. R. Zallen, R.E. Drews, R.L. Emerald, and M.L. Slade,
+ "Electronic structure of crystalline and amorphous As2S3 and
+ As2Se3," Phys. Rev. Lett. 26, 1564 (1971). 
+ 
+ -As2Se3-v 
+ 2. R. Zallen, R.E. Drews, R.L. Emerald, and M.L. Slade,
+ "Electronic structure of crystalline and amorphous As2S3 and
+ As2Se3," Phys. Rev. Lett. 26, 1564 (1971). 
+ 7. U. Strom and P.C. Taylor, "Temperature and frequency
+ dependences of the far-infrared and microwave optical absorption
+ in amorphous materials," Phys. Rev. B 16, 5512 (1977). 
+ 11. G. Lucovsky, "Optical modes in amorphous As2S3 and As2Se3,"
+ Phys. Rev. B 6, 1480 (1972). 
+ 15. C.T. Moynihan, P.B. Macedo, M.S. Maklad, R.K. Mohr, and R.E.
+ Howard, "Intrinsic and impurity absorption in As2Se3 glass," J.
+ NonCryst. Solids 17, 369 (1975). 
+ 16. D.J. Treacy and P.C. Taylor, "Multiphonon absorption in the
+ chalcogenide glasses As2S3 and GeS2," in Optical Properties of
+ Highly Transparent Solids, (S.S. Mitra and B. Bendow, eds.), p.
+ 261, Plenum, New York, (1975). 
+ 19. Y. Ohmachi, "Refractive index of vitreous As2Se3," J. Opt.
+ Soc. Am. 63, 630 (1973). 
+ 
+ -As2S3-m 
+ 2. R. Zallen, M.L. Slade, and A.T. Ward, "Lattice vibrations and
+ interlayer interactions in crystalline As2S3 and As2Se3," Phys.
+ Rev. B 3, 4257 {1971). 
+ 3. D.J. Treacy and P.C. Taylor, "Infrared vibrational spectrum of
+ crystalline As2S3," Phys. Rev. B 11, 2941 (1975). 
+ 4. B.L. Evans and P.A. Young, "Optical properties of arsenic
+ trisulphide," Proc. Roy. Soc. Ser. A 297, 230 (1967). 
+ 5. P.G. Klein, P.C. Taylor, and D.J. Treacy, "Two-phonon
+ vibrational of As2S3. I. Comparison of the crystalline and
+ amorphous forms," Phys. Rev. B 16, 4511 (1977). 
+ 7. R. Zallen, R.E. Drews, R.L. Emerald, and M.L. Slade.
+ "Electronic structure of crystalline and amorphous As2S3 and
+ As2Se3," Phys. Rev. Lett. 26, 1564 (1971). 
+ 
+ -As2S3-v 
+ 7. R. Zallen, R.E. Drews, R.L. Emerald, and M.L. Slade,
+ "Electronic structure of crystalline and amorphous As2S3 and
+ As2Se3," Phys. Rev. Lett. 26, 1564 (1971). 
+ 8. J.J. Fontanella, private communication (1975). 
+ 9. U. Strom and P.C. Taylor, "Microwave and far infrared
+ conductivity in chalcogenide glasses," in Amorphous and Liquid
+ Semiconductors, Vol. 1, (J. Stuke and W. Brenig, eds.), p. 375,
+ Taylor and Francis, London, (1974); "Temperature and frequency
+ dependences of the far-infrared and microwave optical absorption
+ in amorphous materials," Phys, Rev. B 16, 5512 (1977). 
+ 10. G. Lucovsky, "Optical modes in amorphous As2S3 and As2Se3,"
+ Phys. Rev. B 6, 1480 (1972). 
+ 11. P.B. Klein, P.C. Taylor, and D.J. Treacy, "Two-phonon
+ vibrational of As2S3. I. Comparison of the crystalline and
+ amorphous forms," Phys. Rev. B 16, 4511 (1977). 
+ 12. W.S. Rodney, I.H. Malitson, and T.A. King, "Refractive index
+ of arsenic trisulfide," J. Opt. Soc. Am. 48, 633 (1958). 
+ 13. D.L. Wood and J. Tauc, "Weak absorption tails in amorphous
+ semiconductors," Phys. Rev. B 5, 3144 (1972). 
+ 15. P.A. Young, "Optical properties of vitreous arsenic
+ trisulphide," J. Phys. C Solid State Phys. 4, 93 (1971). 
+ 16. M.S. Maklad, R. K. Mohr, R.E. Howard, P.B. Macedo, and C.T.
+ Moynihan, "Multiphonon absorption in As2S3 - As2Se3 glasses,"
+ Solid State Commun. 15, 855 (1974). 
+ 
+ -C-diamon 
+ 1. J.R. Hardy and S.D. Smith, "Two-phonon infra-red lattice
+ absorption in diamond," Phil. Mag. 6, 1163 (1961); S.D. Smith,
+ J.R. Hardy, and E.W.J. Mitchell, "The study of lattice vibrations
+ in diamond by infrared absorption," in Rep. Int. Conf. Phys.
+ Semicond., 6th, Exeter, p. 529, Institute of Physics and the
+ Physical Society, London, (1962). 
+ 2. M. Lax and E. Burstein, "Infrared lattice absorption in ionic
+ and homopolar crystals," Phys. Rev. 97, 39 (1955). 
+ 8. S. von Rösch, "Die Optik des Fabulit, die Farbe des
+ Brewsterwinkels und das Farbspielmoment," Opt. Acta 12, 253
+ (1965). 
+ 10. F. Peter, "Über Brechungsindizes und Absorptionskonstanten
+ des Diamanten zwischen 644 und 226 mµ," Z. Phys. 15, 358 (1923). 
+ 15. C.D. Clark, P.J. Dean, and P.V. Harris, "Intrinsic edge
+ absorption in diamond," Proc. Roy. Soc. London, A 277, 312
+ (1964). 
+ 24. H.H. Philipp and E.A. Taft, "Kramers-Kronig analysis of
+ reflectance data for diamond," Phys. Rev. 136, A1445 (1964). 
+ 
+ -LiF 
+ 1. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-ray Diagnostics - 1981, (D.T. Attwood and B.L. Henke, eds.), p.
+ 340, AlP Conf. Proc. No. 75, American Institute of Physics, New
+ York, (1981). 
+ 2. A.P. Lukirskii, E.P. Savinov, O.A. Ershov, and Y.F. Shepelev, 
+ "Reflection coefficient of radiation in the wavelength range from
+ 23.6 to 113 Å for a number of elements and substances and the
+ determination of the refractive index and absorption
+ coefficient," Opt. Spectrosc. 16, 168 (1964); Opt. Spektrosk. 16,
+ 310 (1964). 
+ 3. F.C. Brown, C. Gähwiller, A.B. Kurtz, and N.O. Lipari, Soft x-
+ ray spectra of the lithium halides and their interpretation,"
+ Phys. Rev. Lett. 25, 927 (1970). 
+ 4. A. Milgram and M.P. Givens, "Extreme ultraviolet absorption by
+ lithium fluoride," Phys. Rev. 125, 1506 (1962). 
+ 6. K.K. Rao, T.J. Moravec, J.C. Rife, and R.N. Dexter, "Vacuum
+ ultraviolet reflectivities of LiF, NaF, and KF," Phys. Rev. B 12,
+ 5937 (1975). 
+ 7. D.M. Roessler and W.C. Walker, "Optical constants of
+ magnesiium oxide and lithium fluoride in the far ultraviolet," J.
+ Opt. Soc. Am. 57, 835 (1967). 
+ 8. T. Tomiki and T. Miyata, "Optical studies of alkali fluorides
+ and aklkali earth fluorides in VUV region," J. Phys. Soc. Jpn.
+ 27, 658 (1969). 
+ 11. P. Laporte and J.L. Subtil, "Refractive index of LiF from 115
+ to 200 nm," J. Opt. Soc. Am. 72, 1558 (1982). 
+ 12. H.H. Li, "Refractive index of alkali halides and its
+ temperature derivatives," J. Phys. Chem. Ref. Data 5, 329 (1976). 
+ 13. J.A. Harrington, B.L. Bobbs, M. Braunstein, R.K. Kim, R.
+ Stearns, and R. Braunstein, "Ultraviolet-visible absorption in
+ highly transparent solids by laser calorimetry and wavelength
+ modulation spectroscopy," Appl. Opt. 17, 1541 (1978), 
+ 14. T.F. Deutsch, "Absorption coefficient of infrared laser
+ window materials," J. Phys. Chem Solids 34, 2091 (1973). 
+ 18. M. Klier, "Die Temperaturabhängigkeit der optisches
+ Konstanten von Lithiumfluorid und Natriumfluorid im Ultraroten,"
+ Z. Physik 150, 49 (1958). 
+ 19. A. Kachare, G. Andermann, and L.R. Brantley, "Reliability of
+ classical dispersion analysis of LiF and MgO reflectance data,"
+ J. Phys. Chem. Solids 33, 467 (1972). 
+ 21. G. Seger and L. Genzel, "Absorptionmessungen an LiF zwischen
+ 0,3 und 0,9 mm wellenlänge," Z. Physik 169, 66 (1962). 
+ 23. R. Stolen and K. Dransfeld, "Far-infrared lattice absorption
+ in alkali halide crystals." Phys. Rev. 139, A1295 (1965). 
+ 24. J.C. Owens, "Anharmonicity and millimeter-wave absorption in
+ alkali halide crystals," Phys. Rev. 181, 1228 (1969). 
+ 26. R.G. Breckenridge, "Low frequency dispersion in ionic
+ crystals," J. Chem. Phys. 16, 959 (1948). 
+ 
+ -LiNbO3 
+ 1. E. Wiesendanger and G. Guntherodt, "Optical anisotropy of
+ LiNbO3 and KNbO3 in the interband transition region," Solid State
+ Commun. 14, 303 (1974). 
+ 3. D. Redfield and W.J. Burke, "Optical absorption edge of
+ LiNbO3," J. Appl. Phys. 45, 4566 (1974). 
+ 5. G.D. Boyd, R.C. Miller, K. Nassau, W.L. Bond, and A. Savage,
+ "LiNbO3: An efficient phase matchable nonlinear optical
+ material,"  Appl. Phys. Lett. 5, 934 (1964). 
+ 6. D.F. Nelson and R.M. Mikulyak, "Refractive indices of
+ congruently melting lithium niobate," J. Appl. Phys. 45, 3688
+ (1974). 
+ 7. A.S. Barker, Jr. and R. Loudon, "Dielectric properties and
+ optical phonons in LiNbO3," Phys. Rev. 158, 433 (1967). 
+ 8. J.D. Axe and D.F. O'Kane, "Infrared dielectric dispersion of
+ LiNbO3," Appl. Phys. Lett. 9, 58 (1966). 
+ 10. D.R. Bosomworth, "The far infrared optical properties of
+ LiNbO3," Appl. Phys. Lett. 9, 330 (1966). 
+ 11. K. Sakai, "Michelson-type Fourier spectrometer in the far
+ infrared," Appl. Opt. 11, 2894 (1972). 
+ 
+ -KCl 
+ 1. L. Genzel, H. Happ, and R. Weber, "Dispersionsmessungen an
+ NaCl, KCl und KBr zwischen 0,3 und 3 mm wellenlänge," Z. Physik
+ 154, 13 (1959). 
+ 2. R. Stolen and K. Dransfeld, "Far-infrared lattice absorption
+ in alkali halide crystals." Phys. Rev. 139, A1295 (1965). 
+ 3. K.W. Johnson and E.E. Bell, "Far-infrared optical properties
+ of KCl and KBr," Phys. Rev. 187, 1044 (1969). 
+ 4. T.F. Deutsch, "Absorption coefficient of infrared laser window
+ materials," J. Phys. Chem. Solids 34, 2091 (1973). 
+ 5. L.L. Boyer, J.A. Harrington, M. Hass, and H.R. Rosenstock,
+ "Multiphonon absorption in ionic crystals," Phys. Rev. B 11, 1665
+ (1975). 
+ 6. S.D. Allen and J.A. Harrington, "Optical absorption in KCl and
+ NaCl at infrared laser wavelengths," Appl. Opt. 17, 1679 (1978). 
+ 7. J.A. Harrington, B.L. Bobbs, M. Braunstein, R.K. Kim, R.
+ Stearns, and R. Braunstein, "Ultraviolet-visible absorption in
+ highly transparent solids by laser calorimetry and wavelength
+ modulation spectroscopy," Appl. Opt. 17, 1541 (1978). 
+ 8. H.H. Li, "Refractive index of alkali halides and its
+ temperature derivatives," J. Phys. Chem. Ref. Data 5, 329 (1976). 
+ 9. T. Tomiki, "Optical constants and exciton states in KCl single
+ crystals. II. The spectra of reflectivity and absorption
+ constant," J. Phys. Soc. Jpn. 23, 1280 (1967). 
+ 10. T. Tomiki, "Optical properties and exciton states in KCl
+ single crystals. I. The low temperature properties," J. Phys.
+ Soc. Jpn. 22, 463 (1967). 
+ 13. M. Antinori, A. Balzarotti, and M. Piacentini, "High-
+ resolution reflection spectra of alkali halides in the far
+ ultraviolet," Phys. Rev. B 7, 1541 (1973); M. Antinori, A.
+ Balzarotti, and M. Piacentini, private communication (1982). 
+ 14. A. Balzarotti, A. Bianconi, E. Burattini, and G. Strinati,
+ "Far ultraviolet absorption spectrum of the K+ ion in KCl," Solid
+ State Commun. 15, 1431 (1974). 
+ 17. A.P. Lukirskii, E.P. Savinov, O.A. Ershov, and Y.F. Shepelev,
+ "Reflection coefficient of radiation in the wavelength range from
+ 23.6 to 113 Å for a number of elements and substances and the
+ determination of the refractive index and absorption
+ coefficient," Opt. Spectrosc. 16, 168 (1964); Opt. Specktrosk.
+ 16, 310 (1964). 
+ 19. O. Aita, I. Nagakura, and T. Sagawa, "Cl-L2,3 absorption
+ spectra of alkali chlorides, silver chloride and thallous
+ chloride," J. Phys. Soc. Jpn. 30, 1414 (1971). 
+ 21. L.G. Parrart, C.F. Hempstead, and E.L. Jossem, ""Thickness
+ effect" in absorption spectra near absorption edges," Phys. Rev.
+ 105, 1228 (1957). 
+ 
+ -SiO2-t 
+ 1. E.V. Loewenstein, D.R. Smith, and R.L. Morgan, "Optical
+ constants of far infrared materials. 2: Crystalline solids,"
+ Appl. Opt. 12, 398 (1973). 
+ 2. W.G. Spitzer and D.A. Kleinman, "Infrared lattice bands of
+ quartz," Phys. Rev. 121, 1324 (1961). 
+ 3. American Institute of Physics Handbook, 3rd ed., Chapter 6, p.
+ 27, McGraw-Hill, New York, (1972). 
+ 6. R.B. Sosman, "The Properties of Silica," p. 591, Chem. Catalog
+ Co. (Tudor), New York, (1927). 
+ 7. H.R. Philipp, "Optical transitions in crystalline and fused
+ quartz," Solid State Commun. 4, 73 (1966). 
+ 8. A. Appleton, T. Chiranjivi, and M. Jafaripour-Ghazvini, "The
+ absorption and photoconductivity spectra of vitreous SiO2," in
+ The Physics of SiO2 and Its Interfaces, (S.T. Pantelides, ed.),
+ p. 94, Pergamon, New York, (1978). 
+ 9. H.R. Philipp, "Optical properties of non-crystalline Si, SiO,
+ SiOx and SiO2," J. Phys. Chem. Solids 32, 1935 (1971). 
+ 
+ -SiO2-a 
+ 1. C.M. Randall and R.D. Rawcliffe, "Refractive indices of
+ germanium, silicon and fused quartz in the far infrared," Appl.
+ Opt. 6, 1889 (1967). 
+ 2. H.R. Philipp, "The infrared optical properties of SiO2 and
+ SiO2 layers on silicon," J. Appl. Phys. 50, 1053 (1979). 
+ 4. D.G. Drummond, "The infra-red absorption spectra of quartz and
+ fused silica from 1 to 7.5 µ," Proc. Roy. Soc. London 153, 328
+ (1935). 
+ 7. B. Brixner, "Refractive index interpolation for fused silica,"
+ J. Opt. Soc. Am. 57, 674 (1967). 
+ 9. H.R. Philipp, "Optical transitions in crystalline and fused
+ quartz," Solid State Commun. 4, 73 (1966); "Optical properties of
+ non-crystalline Si, SiO, SiOx and SiO2," J. Phys. Chem. Solids
+ 32, 1935 (1971). 
+ 10. P.L. Lamy, "Optical constants of crystalline and fused quartz
+ in the far ultraviolet," Appl. Opt. 16, 2212 (1977). 
+ 12. Z.A. Weinberg, G.W. Rubloff, and E. Bassous, "Transmission,
+ photoconductivty, and the experimental band gap of thermally
+ grown SiO2 films," Phys. Rev. B 19, 3107 (1979). 
+ 13. A. Appleton, T. Chiranjivi, and M. Jafaripour-Ghazvini, "The
+ absorption and photoconductivity spectra of vitreous SiO2," in
+ The Physics of SiO2 and Its Interfaces, (S.T. Pantelides, ed.),
+ p. 94, Pergamon, New York, (1978). 
+ 14. I.P. Kaminow. B.G. Bagley, and C.G. Olson, "Measurements of
+ the absorption edge of fused silica," Appl. Phys. Lett. 32, 98
+ (1978). 
+ 15. W.R. Hunter. private communication of unpublished data
+ (1983). 
+ 16. J. Rife and J. Osantowski, "Extreme ultraviolet optical
+ properties of two SiO2 based low-expansion materials," J. Opt.
+ Soc. Am. 70, 1513 (1980). 
+ 17. B.L. Henke, P. Lee. T.J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Attwood and B.L. Henke, eds.), p.
+ 340, AIP Conference Proc., No. 75., American Institute of
+ Physics, New York, (1981). 
+ 
+ -SiO 
+ 1. G. Hass and C.D. Salzberg, "Optical properties of silicon
+ monoxide in the region from 0.24 to 14.0 microns," J. Opt. Soc.
+ Am. 44, 181 (1954). 
+ 2. H.R. Philipp, "Optical properties of non-crystalline Si, SiO,
+ SiOx and SiO2," J. Phys. Chem. Solids 32, 1935 (1971). 
+ 
+ -Si3N4 
+ 21. H.R. Philipp, "Optical properties of silicon nitride," J.
+ Electrochem. Soc. 120, 295 (1973). 
+ 
+ -NaCl 
+ 1. J.C. Owens, "Anharmonicity and millimeter-wave absorption in
+ alkali halide crystals," Phys. Rev. 181, 1228 (1969). 
+ 2. R. Stolen and K. Dransfeld, "Far-infrared lattice absorption
+ in alkali halide crystals." Phys. Rev. 139, A1295 (1965). 
+ 3. L. Genzel, H. Happ, and R. Weber, "Dispersionsmessungen an
+ NaCl, KCl und KBr zwischen 0,3 und 3 mm wellenlänge," Z. Physik
+ 154, 13 (1959). 
+ 4. E.M. Dianov and N.A. Irisova, "Determination of the absorption
+ coefficient of solids in the short-wave region of the millimeter
+ band," J. Appl. Spectros. 5, 187 (1966); Zhur. Prikl. Spektrosk.
+ 5, 251 (1966). 
+ 5. J.E. Eldridge and P.R. Staal, "Far-infrared dispersive-
+ reflection measurements on NaCl, compared with calculations based
+ on cubic and quartic anharmonicity, I. Room temperature," Phys.
+ Rev. B 16, 4608 (1977). 
+ 6. J.A. Harrington, C.J. Duthler, F.W. Patten, and M. Hass,
+ "Multiphonon absorption of alkali halides and quasiselection
+ rules," Solid State Commun. 18, 1043 (1976). 
+ 7. S. Allen and J.A. Harrington, "Optical absorption in KCl and
+ NaCl at infrared laser wavelengths," Appl. Opt. 17, 1679 (1978). 
+ 8. J.A. Harrington, B.L. Bobbs, M. Braunstein, R.K. Kim, R.
+ Stearns, and R. Braunstein, "Ultraviolet-visible absorption in
+ highly transparent solids by laser calorimetry and wavelength
+ modulation spectroscopy," Appl. Opt. 17, 1541 (1978). 
+ 9. H.H. Li, "Refractive index of alkali halides and its
+ temperature derivatives," J. Phys. Chem. Refer. Data 5, 329
+ (1976). 
+ 14. T. Miyata and T. Tomiki, "Optical studies of NaCl single
+ crystals in 10 eV regiion. II. The spectra of conductivity at low
+ temperatures, absorption constant and energy loss," J. Phys. Soc.
+ Jpn. 24, 1286 (1968); "The Urbach tail and reflection spectra of
+ NaCl single crystals," J. Phys. Soc. Jpn. 22, 209 (1967); T.
+ Miyata and T. Tomiki, private communication (1981). 
+ 15. D.M. Roessler and W.C. Walker, "Optical constants of sodium
+ chloride and potassium chloride in the far ultraviolet," J. Opt.
+ Soc. Am. 58, 279 (1968); D.M. Roessler and W.C. Walker,
+ "Eletronic spectrum of crystalline NaCl and KCl," Phys. Rev. 166,
+ 599 (1968). 
+ 16. O. Aita, L. Nagakura, and T. Sagawa, "Cl-L2,3 absorption
+ spectra of alkali chlorides, silver chloride and thallous
+ chloride," J. Phys. Soc. Jpn. 30, 1414 (1971). 
+ 
+ -TiO2 
+ 2. V.V. Meriakri and E.F. Ushatkin, "Measurement of the
+ refractive index at submillimeter wavelengths," Instrum. Exp.
+ Tech. 16, 498 (1973); Prib. Tekh. Eksp. 16, 143 (1973)
+ 4. F. Gervais and B. Piriou, "Temperature dependence of
+ transverse and longitudinal optic modes in TiO2 (rutile)," Phys.
+ Rev. B 10, 1642 (1974). 
+ 5. J.R. Devore, "Refractive indices of rutile and sphalerite," J.
+ Opt. Soc. Am. 41, 416 (1951). 
+ 6. M. Cardona and G. Harbeke, "Optical properties and band
+ structure of wurtzite-type crystals and rutile," Phys. Rev. 137,
+ A1467 (1965). 
+ 7. K. Vos and H.J. Krusemeyer, "Reflectance and
+ electroreflectance of TiO2 single crystals: I. Optical spectra,"
+ J. Phys. C Solid State Phys. 10, 3893 (1977). 
+ 12. D.C. Cronemeyer, "Electrical and optical properties of rutile
+ single crystals," Phys. Rev. 87, 876 (1952). 
+  
+ REFHOCII.ASC
+ 
+ 
+ From  HANDBOOK OF OPTICAL CONSTANTS OF SOLIDS II edited by Edward
+ D. Palik. Copyright (c) 1991 by Academic Press, Inc. Reproduced
+ by permission of the publisher.
+ 
+ 
+ -TiC
+ 6. J. Pflüger, J. Fink, W. Weber, K.P. Bohnen, and G. Crecelins,
+ "Dielectric properties of TiCx, TiNx, VCx and Vx from 2.5 to 40 eV
+ determined by electron-energy-loss-spectroscopy," Phys Rev. B 30,
+ 1155 (1984).
+ 
+ -VC
+ 6. J. Pflüger, J. Fink, W. Weber, K.P. Bohnen, and G. Crecelins,
+ "Dielectric properties of TiCx, TiNx, VCx and Vx from 2.5 to 40 eV
+ determined by electron-energy-loss-spectroscopy," Phys Rev. B 30,
+ 1155 (1984).
+ 
+ -TiN
+ 6. J. Pflüger, J. Fink, W. Weber, K.P. Bohnen, and G. Crecelins,
+ "Dielectric properties of TiCx, TiNx, VCx and Vx from 2.5 to 40 eV
+ determined by electron-energy-loss-spectroscopy," Phys Rev. B 30,
+ 1155 (1984).
+ 
+ -VN
+ 6. J. Pflüger, J. Fink, W. Weber, K.P. Bohnen, and G. Crecelins,
+ "Dielectric properties of TiCx, TiNx, VCx and Vx from 2.5 to 40 eV
+ determined by electron-energy-loss-spectroscopy," Phys Rev. B 30,
+ 1155 (1984).
+ 
+ -Li
+ 16. M. Rasigni, G. Rasigni, J.P. Gasparini and R. Fraisse,
+ "Structure and optical conductivity of thin lithium deposits
+ prepared at 6 K," J. Appl. Phys. 47, 1757 (1976).
+ 20. B.L. Henke, J.C. Davis, E.M. Gullikson, and R.C.C. Perera, "A
+ Preliminary Report on X-Ray Photoabsorption Coefficients and
+ Atomic Scattering Factors for 92 Elements in the 10-10,000 eV
+ Region," Lawrence Berkeley Laboratory Report No. LBL-26259
+ (1988).
+ 
+ -Na
+ 7. N.V. Smith, "Optical constants of sodium and potassium from
+ 0.5 to 4.0 eV by split-beam ellipsometry," Phys. Rev. 183, 634
+ (1969).
+ 12. J.C. Sutherland, E.T. Arakawa, and R.N. Hamm, "Optical
+ properties of sodium in the vacuum ultraviolet," J. Opt. Soc. Am.
+ 57, 645 (1967).
+ 14. S. Sato, T. Miyahara, T. Hanyu, S. Yamaguchi, and S. Ishii,
+ "Extreme ultraviolet absorption spectra of alkali metals," J.
+ Phys. Soc. Jpn. 47, 846 (1979).
+ 15. B.L. Henke, J.C. Davis, E.M. Gullikson, and R.C.C. Perera, "A
+ Preliminary Report on X-Ray Photoabsorption Coefficients and
+ Atomic Scattering Factors for 92 Elements in the 10-10,000 eV
+ Region," Lawrence Berkeley Laboratory Report No. LBL-26259
+ (1988).
+ 
+ -K
+ 6. N.V. Smith, "Optical constants of sodium and potassium from
+ 0.5 to 4.0 eV by split-beam ellipsometry," Phys. Rev. 183, 634
+ (1969).
+ 13. U.S. Whang, E.T. Arakawa and T.A. Callcott, "Optical
+ properties of K between 4 and 10.7 eV and comparison with Na, Rb,
+ and Cs," Phys. Rev. B 6, 2109 (1972).
+ 15. S. Sato, T. Miyahara, T. Hanyu, S. Yamaguchi, and S. Ishii,
+ "Extreme ultraviolet absorption spectra of alkali metals," J.
+ Phys. Soc. Jpn. 47, 846 (1979).
+ 16. B.L. Henke, J.C. Davis, E.M. Gullikson, and R.C.C. Perera, "A
+ Preliminary Report on X-Ray Photoabsorption Coefficients and
+ Atomic Scattering Factors for 92 Elements in the 10-10,000 eV
+ Region," Lawrence Berkeley Laboratory Report No. LBL-26259
+ (1988).
+ 
+ -Cr 
+ 3. L.W. Bos and D.W. Lynch, "Optical properties of
+ antiferromagnetic chromium and dilute Cr-Mn and Cr-Re alloys,"
+ Phys. Rev. B 2, 4567 (1970). 
+ 8. C.G. Olson and D.W. Lynch, unpublished (1980). 
+ 12. B. Sonntag, R. Haensel and C. Kunz, "Optical absorption
+ measurements of the transition metals Ti, V, Cr, Mn, Fe, Co, Ni
+ in the region of 3p electronic transitions," Solid State Commun.
+ 7, 597 (1969). 
+ 28. P. Gravier, G. Chassaing and M. Sigrist, "Optical properties
+ of thin films of b.c.c. transition metals," Thin Solid Films 57,
+ 93 (1979). 
+ 
+ -Fe
+ 3. T.J. Moravec, J.C. Rife and D.L. Dexter, "Optical constants of
+ nickel, iron, and nickel-iron alloys in the vacuum ultraviolet,"
+ Phys. Rev. B 13, 3297 (1976).
+ 4. B. Sonntag, R. Haensel and C. Kunz, "Optical absorption
+ measurements of the transition metals Ti, V, Cr, Mn, Fe, Co, Ni
+ in the region of 3p electronic transitions," Solid State Commun.
+ 7, 597 (1969). 
+ 12. M.A. Ordal, R.J. Bell, R.W. Alexander, L.L. Long, and M.R.
+ Querry, "Optical properties of fourteen metals in the infrared
+ and far infrared: Al, Co, Cu, Au, Fe, Pb, Mo, Ni, Pd, Pt, Ag, Ti,
+ V, and W," Appl. Opt. 24, 4493 (1985).
+ 13. M.A. Ordal, R.J. Bell, R.W. Alexander, L.A. Newquist and M.R.
+ Querry, "Optical properties of Al, Fe, Ti, Ta, W, and Mo at
+ submillimeter wavelengths," Appl. Opt. 27, 1203 (1988)
+ 18. V.P. Shirokovskii, M.M. Kirillova and N.A. Shilkova, "An
+ optical absorption anomaly in iron," Sov. Phys. JETP 55, 464
+ (1982); Zh. Eksp. Teor. Fiz. 82, 784 (1982).
+ 
+ -Nb
+ 8. J.H. Weaver, D.W. Lynch and C.G. Olson, "Optical properties of
+ Nb from 0.1 to 36.4 eV," Phys. Rev. B 7, 4311 (1973).
+ 19. J.H. Weaver and C.G. Olson, "Optical absorption in the 4d
+ transition metals from 20 to 250 eV," Phys. Rev. B 14, 3251
+ (1976).
+ 22. B.L. Henke, J.C. Davis, E.M. Gullikson, and R.C.C. Perera, "A
+ Preliminary Report on X-Ray Photoabsorption Coefficients and
+ Atomic Scattering Factors for 92 Elements in the 10-10,000 eV
+ Region," Lawrence Berkeley Laboratory Report No. LBL-26259
+ (1988).
+ 
+ -Ta
+ 6. J.H. Weaver, D.W. Lynch and C.G. Olson, "Optical properties of
+ V, Ta, and Mo from 0.1 to 30 eV," Phys. Rev. B 10, 501 (1974).
+ 14. H. Haensel, K. Radler, B. Sonntag and C. Kunz, "Optical
+ absorption measurements of tantalum, tungsten, rhenium and
+ platinum in the extreme ultraviolet," Solid State Commun. 7, 1495
+ (1969).
+ 16. M.A. Ordal, R.J. Bell, R.W. Alexander, L.A. Newquist and M.R.
+ Querry, "Optical properties of Al, Fe, Ti, Ta, W, and Mo at
+ submillimeter wavelengths," Appl. Opt. 27, 1203 (1988).
+ 17. B.L. Henke, J.C. Davis, E.M. Gullikson, and R.C.C. Perera, "A
+ Preliminary Report on X-Ray Photoabsorption Coefficients and
+ Atomic Scattering Factors for 92 Elements in the 10-10,000 eV
+ Region," Lawrence Berkeley Laboratory Report No. LBL-26259
+ (1988).
+ 
+ -Be
+ A. E.T. Arakawa, T.A. Callcott and Yun-Ching Chang, "Beryllium,"
+ in Handbook of Optical Constants of Solids II, (E.D. Palik, ed.),
+ p. 421, Academic Press, Orlando, (1991).
+ 19. B.L. Henke, J.C. Davis, E.M. Gullikson, and R.C.C. Perera, "A
+ Preliminary Report on X-Ray Photoabsorption Coefficients and
+ Atomic Scattering Factors for 92 Elements in the 10-10,000 eV
+ Region," Lawrence Berkeley Laboratory Report No. LBL-26259
+ (1988).
+ 
+ -Co-c
+ 17. V.Y. Kudryavtsev and I.V. Lezhnenko, "Optical properties of
+ hcp and fcc colbalt films in the energy range 0.095 - 1.2 eV,"
+ Sov. Phys. Solid State 23, 249 (1981); Fiz. Tverd. Tela 23, 440
+ (1981).
+ 
+ -Co-h
+ 3. "Co" in Physik-Daten-Physics Data, Optical Properties of
+ Metals, Part 2, (J.H. Weaver, C. Krafta, D.W. Lynch and E.E.
+ Koch, eds.), p. 85, Fachsinformazionszentrum, Karlsruhe, (1981).
+ 6. A.Y.-C. Yu, T.M. Donovan and W.E. Spicer, "Optical properties
+ of cobalt," Phys. Rev. 167, 670 (1968).
+ 7. B. Sonntag, R. Haensel and C. Kunz, "Optical absorption
+ measurements of the transition metals Ti, V, Cr, Mn, Fe, Co, Ni
+ in the region of 3p elecltronic transitions," Solid State Commun.
+ 7, 597 (1969). 
+ 8. P.B. Johnson and R.W. Christy, "Optical constants of
+ transition metals: Ti, V, Cr, Mn, Fe, Co, Ni and Pd," Phys. Rev.
+ B 9, 5056 (1974). 
+ 9. J.H. Weaver, E. Colavita, D.W. Lynch, and R. Rosei, "Low-
+ energy interband absorption in bcc Fe and hcp Co," Phys. Rev. B
+ 19, 3850 (1979).
+ 10. C. Wehenkel and B. Gauthe, "Electron energy loss spectra and
+ optical constants for the first transition series from 2 to 120
+ eV," Phys. Stat. Solidi (b) 64, 515 (1974).
+ 13. B.L. Henke, P. Lee, J. Tanaka, R.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Atwood and B.L. Henke, eds.), AIP
+ Conference Proceedings No. 75, p. 340, American Institute of
+ Physics, New York, (1981).
+ 16. C. Viguier, A. Cros, A. Humbert, C. Ferrieu, O. Thomas, R.
+ Madar and J.P. Senateur, "Electronic properties of CoSi2 studied
+ by reflectivity and spectroscopic ellipsometry," Solid State
+ Commun. 60, 923 (1986).
+ 21. G.A. Bolotin, M.M. Noskov and I.I. Sasovshaya, "Interband
+ absorption in ferromagnetic cobalt and its relation to the
+ density of states," Phys. Met. Metallog. 35, No. 4, 24 (1973);
+ Fiz. Met. Metalloveh. 35, 699 (1973).
+ 24. V.S. Gushchin, K.M. Shvarev, B.A. Baum and P.V. Geld,
+ "Optical constants and electronic characteristics of cobalt over
+ a wide temperature range," Sov. Phys. Dokl. 23, 344 (1978); Dokl.
+ Akad. Nauk SSSR 240, 320 (1971).
+ 
+ -C-graphi
+ 12. F.Bassani and E. Tosatti, "Optical constants of anisotropic
+ materials from energy loss experiments," Phys. Lett. 27A, 446
+ (1968); Il Nuovo Cimento 65B, 161 (1970).
+ 17. R. Klucker Interner Bericht, DESY F41-72/1 (1972).
+ 21. H. Venghaus, "Determination of the dielectric function of
+ graphite," Phys. Stat. Solidi (b) 71, 609 (1975).
+ 22. R.J. Nemanich, G. Lucovsky and S.A. Solin, "Infrared active
+ optical vibrations of graphite," Solid State Commun. 23, 117
+ (1977).
+ 26. G. Guizzetto amd A. Piaggi, private communication (1988).
+ 
+ -Hg
+ 11. T. Inagaki, E.T. Arakawa and M.W. Williams, "Optical
+ properties of liquid mercury," Phys. Rev. B 23, 5246 (1981).
+ 
+ -Pd
+ 13. R.C. Vehse, E.T. Arakawa and M.W. Williams, "Optical and
+ photoemissive properties of palladium in the vacuum ultraviolet
+ spectral region," Phys. Rev. B 1, 517 (1970).
+ 15. P.B. Johnson and R.W. Christy, "Optical constants of
+ transition metals: Ti, V, Cr, Mn, Fe, Co, Ni and Pd," Phys. Rev.
+ B 9, 5056 (1974). 
+ 27. D.L. Windt, W.C. Cash, Jr., M. Scott, P. Arendt, B. Newnam, 
+ R.F. Fisher and A.B. Swartzlander, "Optical constants for thin
+ films of Ti, Zr, Nb, Mo, Ru, Rh, Pd, Ag, Hf, Ta, W, Re, Ir, Os,
+ Pt, and Au from 24 Å to 1216 Å," Appl. Opt. 27, 246 (1988).
+ 31. O.S. Heavens, Optical Properties of Thin Solid Films, p. 177,
+ Dover, New York, (1965).
+ 
+ -V
+ 7. B. Sonntag, R. Haensel and C. Kunz, "Optical absorption
+ measurements of the transition metals Ti, V, Cr, Mn, Fe, Co, Ni
+ in the region of 3p electronic transitions," Solid State Commun.
+ 7, 597 (1969). 
+ 8. A. Seignac and S. Robin, "Propriétés optique de couches minces
+ de rhodium et de vanadium dans l'ultraviolet lointain," Compt.
+ Rend. Acad. Sci. Paris B 271, 919 (1970).
+ 12. J.H. Weaver, D.W. Lynch and C.G. Olson, "Optical properties
+ of V, Ta, and Mo from 0.1 to 30 eV," Phys. Rev. B 10, 501 (1974).
+ 13. C. Wehenkel and B. Gauthe, "Electron energy loss spectra and
+ optical constants for the first transition series from 2 to 120
+ eV," Phys. Stat. Solidi (b) 64, 515 (1974).
+ 19. J.E. Nestell and R.W. Christy, "Optical conductivity of bcc
+ transition metals: V, Nb, Ta, Cr, Mo, W," Phys. Rev. B 21, 3173
+ (1980).
+ 
+ -AlAs
+ 1. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro and B.K.
+ Fujikama, "Low-energy x-ray interaction coefficients:
+ Photoabsorption, scattering, and reflection," At. Data Nucl. Data
+ Tables 27, 1 (1982).
+ 3. M. Garriga, P. Lautenschlager, M. Cardona and K. Ploog,
+ "Optical properties of AlAs," Solid State Commun. 61, 157 (1987).
+ 4. W.M. Yim. "Direct and indirect energy gaps of AlAs," J. Appl.
+ Phys. 42, 2854 (1971).
+ 6. R.E. Fern amd A. Onton, "Refractive index of AlAs," J. Appl.
+ Phys. 42, 3499 (1971).
+ 8. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 13. S. Perkowitz, R. Sudharsanan, S.S. Yom, and T.J. Drummond,
+ "AlAs phonon parameters and heterostructure characterization," 
+ Solid State Commun. 62, 645 (1987).
+ 14. R. Sudharsanan, S. Perkowitz, S.S. Yom, and T.J. Drummond,
+ "Far infrared reflectance spectroscopy of AlAs-GaAs
+ microstructures," in Modern Optical Characterization Techniques
+ for Semiconductors and Semiconductor Devices, (O.J. Glembocki,
+ F.H. Pollak, and J.J. Soong, eds.), Proc. SPIE 794, 197 (1987).
+ 
+ -AlSb
+ 2. S. Zollner, C. Lin, E. Schönherr, A. Böhringer, and M.
+ Cardona, "The dielectric function of AlSb from 1.4 to 5.8 eV
+ determined by spectroscopic ellipsometry," J. Appl. Phys. 66, 383
+ (1989).
+ 3. K. Strossner, S. Ves, C.K. Kim, and M. Cardona, "Dependence of
+ the direct and indirect gap of AlSb on hydrostatic pressure,"
+ Phys. Rev. B 33, 4044 (1986).
+ 5. W.J. Turner and W.E. Reese, "Infrared lattice bands of AlSb,"
+ Phys. Rev. 127, 126 (1962).
+ 9. M. Hass and B.W. Henvis, "Infrared lattice reflectance spectra
+ of III-V compound semiconductors," J. Phys. Chem. Solids 23, 1099
+ (1962).
+ 
+ -Al09Ga90As
+ 2. D.E. Aspnes, S.M. Kelso, R.A. Logan, and R. Bhat, "Optical
+ properties of AlxGa1-xAs," J. Appl. Phys. 60, 754 (1986).
+ 
+ -Al1Ga9As
+ 1. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 
+ -Al14Ga86As
+ 1. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 3. O.K. Kim and W.G. Spitzer, "Infrared reflectivity spectra and
+ Raman spectra of Ga1-xAlxAs mixed crystals," J. Appl. Phys. 50,
+ 4362 (1979).
+ 5. B. Jensen, "Calculation of the refractive index of compound
+ semiconductors below the band gap," in Handbook of Optical
+ Constants of Solids II, (E.D. Palik, ed.), Chap. 6, p. 125,
+ Academic Press, Orlando, (1991).
+ 
+ -Al18Ga82As
+ 3. O.K. Kim and W.G. Spitzer, "Infrared reflectivity spectra and
+ Raman spectra of Ga1-xAlxAs mixed crystals," J. Appl. Phys. 50,
+ 4362 (1979).
+ 
+ -Al19Ga80As
+ 2. D.E. Aspnes, S.M. Kelso, R.A. Logan, and R. Bhat, "Optical
+ properties of AlxGa1-xAs," J. Appl. Phys. 60, 754 (1986).
+ 
+ -Al2Ga8As
+ 1. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 
+ -Al3Ga7As
+ 1. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 3. O.K. Kim and W.G. Spitzer, "Infrared reflectivity spectra and
+ Raman spectra of Ga1-xAlxAs mixed crystals," J. Appl. Phys. 50,
+ 4362 (1979).
+ 8. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro and B.K.
+ Fujikama, "Low-energy x-ray interaction coefficients:
+ Photoabsorption, scattering, and reflection," At. Data Nucl. Data
+ Tables 27, 1 (1982).
+ 9. B.L. Henke, J.C. Davis, E.M. Gullikson, and R.C.C. Perera, "A
+ Preliminary Report on X-Ray Photoabsorption Coefficients and
+ Atomic Scattering Factors for 92 Elements in the 10-10,000 eV
+ Region," Lawrence Berkeley Laboratory Report No. LBL-26259
+ (1988).
+ 
+ -Al31Ga68As
+ 2. D.E. Aspnes, S.M. Kelso, R.A. Logan, and R. Bhat, "Optical
+ properties of AlxGa1-xAs," J. Appl. Phys. 60, 754 (1986).
+ 
+ -Al36Ga64As
+ 3. O.K. Kim and W.G. Spitzer, "Infrared reflectivity spectra and
+ Raman spectra of Ga1-xAlxAs mixed crystals," J. Appl. Phys. 50,
+ 4362 (1979).
+ 
+ -Al4Ga6As
+ 1. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 
+ -Al41Ga58As
+ 2. D.E. Aspnes, S.M. Kelso, R.A. Logan, and R. Bhat, "Optical
+ properties of AlxGa1-xAs," J. Appl. Phys. 60, 754 (1986).
+ 
+ -Al44Ga56As
+ 3. O.K. Kim and W.G. Spitzer, "Infrared reflectivity spectra and
+ Raman spectra of Ga1-xAlxAs mixed crystals," J. Appl. Phys. 50,
+ 4362 (1979).
+ 
+ -Al49Ga50As
+ 2. D.E. Aspnes, S.M. Kelso, R.A. Logan, and R. Bhat, "Optical
+ properties of AlxGa1-xAs," J. Appl. Phys. 60, 754 (1986).
+ 
+ -Al5Ga5As
+ 1. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 
+ -Al54Ga46As
+ 3. O.K. Kim and W.G. Spitzer, "Infrared reflectivity spectra and
+ Raman spectra of Ga1-xAlxAs mixed crystals," J. Appl. Phys. 50,
+ 4362 (1979).
+ 
+ -Al59Ga41As
+ 2. D.E. Aspnes, S.M. Kelso, R.A. Logan, and R. Bhat, "Optical
+ properties of AlxGa1-xAs," J. Appl. Phys. 60, 754 (1986).
+ 
+ -Al6Ga4As
+ 1. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 
+ -Al70Ga30As
+ 1. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 2. D.E. Aspnes, S.M. Kelso, R.A. Logan, and R. Bhat, "Optical
+ properties of AlxGa1-xAs," J. Appl. Phys. 60, 754 (1986).
+ 
+ -Al8Ga2As
+ 1. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 
+ -Al80Ga19As
+ 2. D.E. Aspnes, S.M. Kelso, R.A. Logan, and R. Bhat, "Optical
+ properties of AlxGa1-xAs," J. Appl. Phys. 60, 754 (1986).
+ 
+ -Al9Ga1As
+ 1. S. Adachi, "GaAs, AlAs, and AlxGa1-xAs: Material parameters for
+ basic research and device applications," J. Appl. Phys. 58, R1
+ (1985).
+ 
+ -CdSe
+ 1. M. Cardona and G. Harbeke, "Optical properties and band
+ structure of wurtzite-type crystals and rutile," Phys. Rev. 137,
+ A1467 (1965).
+ 2. S. Logothetidis, M. Cardona, P. Lautenschlager and M. Garriga,
+ "Temperature dependence of the dielectric function and the
+ interband critical points of CdSe," Phys. Rev. B 34, 2458 (1986). 
+ 3. D.L. Rosen, Q.X. Li amd R.R. Alfano, "Native defects in
+ undoped semi-insulating CdSe studied by photoluminescence and
+ absorption," Phys. Rev. B 31, 2396 (1985). 
+ 4. R. Beserman, "Zone edge phonons in CdSe1-xSx," Solid State
+ Commun. 23, 323 (1977). 
+ 5. M.P. Lisitsa. L.F. Gudymenko, V.N. Malinko and S.F. Terekhova,
+ "Dispersion of the refractive indices and birefringence of
+ CdSxSe1-x single crystals," Phys. Status Solidi 31, 389 (1969).
+ 12. R. Beserman and M. Balkanski, "Vibrational properties of
+ mixed CdSxSe1-x," Phys. Rev. B 1, 608 (1970).
+ 
+ -CdS-h
+ 1. B.L. Henke, P. Lee, J. Tanaka, P.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Atwood and B.L. Henke, eds.), p.
+ 146, A.I.P. Conf. Proc. No. 75, American Institute of Physics,
+ New York, (1981).
+ 3. M. Cardona and R. Haensel, "Optical properties of some
+ compound semiconductors in the 36-150-eV region," Phys. Rev. B 1,
+ 2605 (1970).
+ 4. M. Cardona and G. Harbeke, "Optical properties and band
+ structure of wurtzite-type crystals and rutile," Phys. Rev. 137,
+ A1467 (1965).
+ 15. T.M. Bienewski and S.J. Czyzak, "Refractive indexes of single
+ hexagonal ZnS and CdS crystals," J. Opt. Soc. Am. 53, 496 (1963).
+ 42. M. Balkanski, J.M. Besson, and R. LeToullec, "Dispersion
+ curves of phonons in hexagonal cadmium sulfide obtained by
+ infrared spectroscopy." in Int. Conf. Phys. Semicond., Paris, p.
+ 1091. Dunod, Paris, and Academic Press, New York, (1964).
+ 43. M. Balkanski, "Photon-phonon interactions in solids," in
+ Optical Properties of Solids, (F. Abelès, ed.), p. 529,
+ North-Holland, Amsterdam, (1972).  
+ 44. A. Manabe, A. Mitsuishi and H. Yoshinaga, "Infrared lattice
+ reflection spectra of infrared compounds," Jpn. J. Appl. Phys. 6,
+ 593 (1967).
+ 45. A.S. Barker, Jr. and C.J. Summers, "Infrared dielectric
+ function of CdS," J. Appl Phys. 41, 3552 (1970).
+ 46. T. Hattori, Y. Homma, A. Mitsuishi, and M. Tacke, "Indices of
+ refraction of ZnS, ZnSe, ZnTe, CdS, and CdTe in the far
+ infrared," Opt. Commun. 7, 229 (1971).
+ 47. D. Berlincourt, H. Jaffe, and L.R. Shiozawa, "Electroelastic
+ properties of the sulfides, selenides and tellurides of zinc and
+ cadmium," Phys. Rev. 129, 1009 (1963).
+ 48. H.W. Verleur and A.S. Barker, Jr., "Optical phonons in mixed
+ crystals of CdSeyS1-y," Phys. Rev. 155, 750 (1967).
+ 
+ -CdS-poly
+ 21. A.B. Francis and A.I. Carlson, "Cadmium sulfide infrared
+ optical material," J. Opt. Soc. Am. 50, 118 (1960).
+ 28. E.E. Khawaja and S.G. Tomlin, "The optical constants of thin
+ evaporated films of cadmium and zinc sulphides," J. Phys. D Appl.
+ Phys. 8, 581 (1975).
+ 33. J.F. Hall and W.F.C. Ferguson, "Optical properties of cadmium
+ sulfide and zinc sulfide from 0.6 micron to 14 microns," J. Opt.
+ Soc. Am. 45, 714 (1955).
+ 39. M. Balkanski and J.M. Besson, "Double phonon processes in
+ cadmium sulfide," J. Appl. Phys. 32, 2292 (1961).
+ 
+ -GaSb
+ 1. D.E. Aspnes and A.A. Studna, "Dielectric functions and optical
+ parameters of Si, Ge, GaP, GaAs, GaSb, InP, InAs, and InSb from
+ 1.5 to 6.0 eV," Phys. Rev. B 27, 985 (1983).
+ 6. E.J. Johnson, I. Filinski, and H.Y. Fan, "Absorption and
+ emission of excitons and impurities in GaSb," in Proc. Intern.
+ Conf. Phys. Semicond. 6th, Exeter, 1962, p. 375, The Institute of
+ Physics and the Physical Society, London, (1962).
+ 10. M. Hass and B.W. Henvis, "Infrared lattice reflectance
+ spectra of III-V compound semiconductors," J. Phys. Chem. Solids
+ 23, 1099 (1962).
+ 
+ -Si25Ge75
+ 4. R. Braunstein, A.R. Moore, and F. Herman, "Intrinsic optical
+ absorption in germanium-silicon alloys," Phys. Rev. 109, 695
+ (1958).
+ 6. E. Schmidt, "Optical properties of GeSi alloys in the energy
+ range 1 to 13 eV," Phys. Stat. Solidi 27, 57 (1968).
+ 8. J. Humlí ek, M. Garriga, M.I. Alonso. and M. Cardona, "Optical
+ spectra of SixGe1-x alloys," J. Appl. Phys. 65, 2827 (1989).
+ 11. J. Humlí ek, unpublished data (1989).
+ 
+ -Si50Ge50
+ 4. R. Braunstein, A.R. Moore, and F. Herman, "Intrinsic optical
+ absorption in germanium-silicon alloys," Phys. Rev. 109, 695
+ (1958).
+ 6. E. Schmidt, "Optical properties of GeSi alloys in the energy
+ range 1 to 13 eV," Phys. Stat. Solidi 27, 57 (1968).
+ 8. J. Humlí ek, M. Garriga, M.I. Alonso. and M. Cardona, "Optical
+ spectra of SixGe1-x alloys," J. Appl. Phys. 65, 2827 (1989).
+ 11. J. Humlí ek, unpublished data (1989).
+ 
+ -Si80Ge20
+ 4. R. Braunstein, A.R. Moore, and F. Herman, "Intrinsic optical
+ absorption in germanium-silicon alloys," Phys. Rev. 109, 695
+ (1958).
+ 6. E. Schmidt, "Optical properties of GeSi alloys in the energy
+ range 1 to 13 eV," Phys. Stat. Solidi 27, 57 (1968).
+ 8. J. Humlí ek, M. Garriga, M.I. Alonso. and M. Cardona, "Optical
+ spectra of SixGe1-x alloys," J. Appl. Phys. 65, 2827 (1989).
+ 11. J. Humlí ek, unpublished data (1989).
+ 
+ -Pb91Sn09Te
+ 1. D.M. Korn, "Fundamental optical properties of lead telluride,
+ tin telluride, and their alloy," Thesis, UCLA, (1971).
+ 
+ -Pb9Sn1Te
+ 1. D.M. Korn, "Fundamental optical properties of lead telluride,
+ tin telluride, and their alloy," Thesis, UCLA, (1971).
+ 3. I.A. Drabkin, L. Y. Morgovskii, I.V. Nel'son, Y.I. Ravich,
+ "Fundamental absorption of light in the nonparabolic region of
+ PbTe and in PbTe-SnTe solid solution," Sov. Phys. Semicond. 6,
+ 1156 (1973); Fiz. Tekh. Poluprovodu. 6, 1323 (1973).
+ 
+ -Pb83Sn17Te
+ 1. D.M. Korn, "Fundamental optical properties of lead telluride,
+ tin telluride, and their alloy," Thesis, UCLA, (1971). 
+ 
+ -Pb8Sn2Te
+ 1. D.M. Korn, "Fundamental optical properties of lead telluride,
+ tin telluride, and their alloy," Thesis, UCLA, (1971).
+ 3. I.A. Drabkin, L. Ya. Morgovskii, I.V. Nel'son, Yu.I. Ravich,
+ "Fundamental absorption of light in the nonparabolic region of
+ PbTe and in PbTe-SnTe solid solution," Sov. Phys. Semicond. 6,
+ 1156 (1973); Fiz. Tekh. Poluprovodu. 6, 1323 (1973).
+ 
+ -Pb79Sn21Te
+ 4. S.W. McKnight and M.K. El-Rayess, "Far-infrared reflectivity
+ of indium doped Pb1-xSnxTe," Solid State Commun. 49, 1001 (1984).
+ 
+ -Hg09Cd91Te
+ 6. L. Viña, C. Umbach, M. Cardona, and L. Vodopyanov,
+ "Ellipsometric studies of electronic interband transitions in
+ CdxHg1-xTe," Phys. Rev. B 29, 6752 (1984). 
+ 
+ -Hg14Cd86Te
+ 6. L. Viña, C. Umbach, M. Cardona, and L. Vodopyanov,
+ "Ellipsometric studies of electronic interband transitions in
+ CdxHg1-xTe," Phys. Rev. B 29, 6752 (1984). 
+ 
+ -Hg24Cd76Te
+ 6. L. Viña, C. Umbach, M. Cardona, and L. Vodopyanov,
+ "Ellipsometric studies of electronic interband transitions in
+ CdxHg1-xTe," Phys. Rev. B 29, 6752 (1984). 
+ 
+ -Hg55Cd44Te
+ 21. Z. Ku era, "Dispersion of the refractive index of Hg1-xCdx
+ Te," Phys. Stat. Solidi (a) 100, 659 (1987).
+ 30. J. Chu, S. Xu, H. Ji, W. Zhang, C. Shiwei, and R. Jiung,
+ "Determination of composition of Hg1-xCdxTe with the method of
+ infrared absorption," Chin. J. Infrared and Millimeter Waves 4,
+ 255 (1985).
+ 
+ -Hg55Cd45Te
+ 39. X.C. Shen and J.H. Chu, "Far-infrared reflection spectra and
+ the multimode model for mixed crystal CdxHg1-xTe," Acta Physica
+ Sinica 34, 56 (1985).
+ 
+ -Hg57Cd43Te
+ 6. L. Viña, C. Umbach, M. Cardona, and L. Vodopyanov,
+ "Ellipsometric studies of electronic interband transitions in
+ CdxHg1-xTe," Phys. Rev. B 29, 6752 (1984). 
+ 
+ -Hg7Cd3Te
+ 26. J. Baars and F. Sorger, "Reststrahlen spectra of HgTe and
+ CdxHg1-xTe," Solid State Commun. 10, 875 (1972); R. Dornhaus and
+ G. Mintz, "The properties and application of the CdxTeHg1-x alloy
+ system," in Narrow-Gap Semiconductors, Springer Tracts in Modern
+ Physics, Vol. 98, (G. Höhler and E.A. Nickish, eds.), p. 119,
+ Springer-Verlag, Berlin, (1983).
+ 31. J.A. Mroczkowski and D.A. Nelson, "Optical absorption below
+ the absorption edge in Hg1-xCdxTe," J. Appl. Phys. 54, 2041
+ (1983).
+ 
+ -Hg71Cd29Te
+ 5. H. Arwin and D.E. Aspnes, "Nondestructive analysis of 
+ Hg1-xCdxTe (x = 0.00, 0.20, 0.29, and 1.00) by spectroscopic
+ ellipsometry II. Substrate, oxide, and interface properties," J.
+ Vac. Sci Technol. A 2, 1316 (1984).
+ 26. J. Baars and F. Sorger, "Reststrahlen spectra of HgTe and
+ CdxHg1-xTe," Solid State Commun. 10, 875 (1972); R. Dornhaus and 
+ G. Mintz, "The properties and application of the CdxTeHg1-x alloy
+ system," in Narrow-Gap Semiconductors, Springer Tracts in Modern
+ Physics, Vol. 98, (G. Höhler and E.A. Nickish, eds.), p. 119,
+ Springer-Verlag, Berlin, (1983).
+ 31. J.A. Mroczkowski and D.A. Nelson, "Optical absorption below
+ the absorption edge in Hg1-xCdxTe," J. Appl. Phys. 54, 2041
+ (1983).
+ 
+ -Hg79Cd20Te
+ 31. J.A. Mroczkowski and D.A. Nelson, "Optical absorption below
+ the absorption edge in Hg1-xCdxTe," J. Appl. Phys. 54, 2041
+ (1983).
+ 
+ -Hg80Cd20Te
+ 5. H. Arwin and D.E. Aspnes, "Nondestructive analysis of 
+ Hg1-xCdxTe (x = 0.00, 0.20, 0.29, and 1.00) by spectroscopic
+ ellipsometry II. Substrate, oxide, and interface properties," J.
+ Vac. Sci Technol. A 2, 1316 (1984).
+ 25. E. Finkman and S.E. Schacham. "The exponential optical
+ absorption band tail of Hg1-xCdxTe," J. Appl. Phys. 56, 2896
+ (1984).
+ 31. J.A. Mroczkowski and D.A. Nelson, "Optical absorption below
+ the absorption edge in Hg1-xCdxTe," J. Appl. Phys. 54, 2041
+ (1983).
+ 
+ -Hg80Cd20Te
+ 5. H. Arwin and D.E. Aspnes, "Nondestructive analysis of 
+ Hg1-xCdxTe (x = 0.00, 0.20, 0.29, and 1.00) by spectroscopic
+ ellipsometry II. Substrate, oxide, and interface properties," J.
+ Vac. Sci Technol. A 2, 1316 (1984).
+ 25. E. Finkman and S.E. Schacham. "The exponential optical
+ absorption band tail of Hg1-xCdxTe," J. Appl. Phys. 56, 2896
+ (1984).
+ 31. J.A. Mroczkowski and D.A. Nelson, "Optical absorption below
+ the absorption edge in Hg1-xCdxTe," J. Appl. Phys. 54, 2041
+ (1983).
+ 
+ -HgTe
+ 5. H. Arwin and D.E. Aspnes, "Nondestructive analysis of 
+ Hg1-xCdxTe (x = 0.00, 0.20, 0.29, and 1.00) by spectroscopic
+ ellipsometry II. Substrate, oxide, and interface properties," J.
+ Vac. Sci Technol. A 2, 1316 (1984).
+ 
+ -Se
+ 6. M.  icha, J. Studni ka, V. Prosser, and B. Gruber, "The
+ permittivity tensor of hexagonal selenium in the 3.3 cm wave
+ region," Phys. Stat. Solidi 7, 1045 (1964).
+ 8. E.J. Danielewicz and P.D. Coleman, "Far infrared optical
+ properties of selenium and cadmium telluride," Appl. Opt. 13,
+ 1164 (1974).
+ 9. R. Geick, U. Schroder and J. Stuke, "Lattice vibrational
+ properties of trigonal selenium," Phys. Stat. Solidi 24, 99
+ (1967).
+ 14. W. Henrion, "Optical properties and energy gap structure of
+ trigonal selenium," in Physics of Selenium and Tellurium, (W.C.
+ Cooper, ed.), p. 75, Pergamon, New York, (1969);
+ "Infrarotabsorption trigonaler Selen-einkristalle an der
+ Absorptionskante," Phys. Stat. Solidi  12, K113 (1965).
+ 15. A.G. Leiga, "Optical properties of trigonal selenium in the
+ vacuum ultraviolet," J. Opt. Soc. Am. 58, 880 (1968).
+ 16. S. Tutihasi and I. Chen, "Optical properties and band
+ structure of trigonal selenium," Phys. Rev. 158, 623 (1967).
+ 17. P. Bammes, R. Klucker, E.E. Koch and T. Tuomi, "Anisotropy of
+ the dielectric constants of trigonal selenium and tellurium
+ between 3 and 30 eV," Phys. Stat. Solidi (b) 49, 561 (1972).
+ 18. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro and B.K.
+ Fujikama, "Low-energy x-ray interaction coefficients:
+ Photoabsorption, scattering, and reflection," At. Data Nucl. Data
+ Tables 27, 1 (1982).
+ 
+ -SiC-c
+ A. S.A. Altervitz and J.A. Woollam, (unpublished).
+ 
+ -Te
+ 2. P. Grosse and W. Richter, "Tellurium," in Landolt-Börnstein
+ Numerical Data and Functional Relationships in Science and
+ Technology, Group III, Vol. 17e, (K.-H. Hellwege, ed.), p. 106,
+ Springer-Verlag, Berlin, (1983).
+ 5. R. Geick, P. Grosse and W. Richter, "The contribution of the
+ lattice vibrations to the optical constants of tellurium," in The
+ Physics of Selenium and Tellurium, (W.C. Cooper, ed.), p. 309,
+ Pergamon, New York, (1969).
+ 7. M. Rautenberg, "Optishe Untersuchungen der Elektron-Phonon-
+ Wechselwirkung in Tellur," Ph. D. thesis, Der
+ Rheinisch-Westfäleschen Technischen Hochschule Aachen, (1977);
+ private communication from P. Grosse.
+ 9. R.S. Caldwell and H.Y. Fan, "Optical properties of tellurium
+ and selenium," Phys. Rev. 114, 664 (1959).
+ 12. S. Tutihasi, G.G. Roberts, R.C. Keezer and R.E. Drews,
+ "Optical properties of tellurium in the fundamental absorption
+ region," Phys. Rev. 177, 1143 (1969).
+ 14. P. Bammes, R. Klucker, E.E. Koch and T. Tuomi, "Anisotropy of
+ the dielectric constants of trigonal selenium and tellurium
+ between 3 and 30 eV," Phys. Stat. Solidi (b) 49, 561 (1972);
+ private communication from T. Saile.
+ 15. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro and B.K.
+ Fujikama, "Low-energy x-ray interaction coefficients:
+ Photoabsorption, scattering, and reflection," At. Data Nucl. Data
+ Tables 27, 1 (1982).
+ 
+ -SnTe
+ 2. M. Cardona and D.L. Greenaway, "Optical properties and band
+ structure of group IV-VI and group V materials," Phys. Rev. 133,
+ A1685 (1964).
+ 4. D.M. Korn, "Fundamental optical properties of lead telluride,
+ tin telluride, and their alloy," Thesis, UCLA, (1971).
+ 6. J. R. Burke, Jr., and H.R. Riedl, "Temperature dependence of
+ the optical absorption edge of p-type SnSe," Phys. Rev. 184, 830
+ (1969).
+ 7. R.B. Schoolar and J. R. Dixon, "Optical properties of tin
+ telluride in the visible and infrared region," J. Opt. Soc. Am.
+ 58, 119 (1968).
+ 
+ -ZnSe-c
+ 4. B.L. Henke, P. Lee, J. Tanaka, P.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Atwood and B.L. Henke, eds.), p.
+ 146, A.I.P. Conf. Proc. No. 75, American Institute of Physics,
+ New York, (1981).
+ 7. J. Gautron, C. Raisin and P. Lemasson, "Optical and electro-
+ optical behavior of polished and etched zinc selenide single
+ crystals," J. Phys. D Appl. Phys. 15, 153 (1982).
+ 8. M. Cardona and R. Haensel, "Optical properties of some
+ compound semiconductors in the 36-150-eV region," Phys. Rev. B 1,
+ 2605 (1970).
+ 11. M. Balkanski and Y. Petroff, "Propriétés optiques des
+ composés II-VI dans l'ultraviolet," in Int. Conf. Phys.
+ Semicond., Paris 1964, p. 245, Dunod, Paris, and Academic Press,
+ New York, (1964).
+ 20. G.A. Zholkevich, "The optical and photoelectrical properties
+ of zinc selenide and telluride," Sov. Phys. Solid State 2, 1009
+ (1960); Fiz. Tverd. Tela 2, 1115 (1960).
+ 22. A. Feldman. I. Malitson, D. Horwitz, R.M. Waxler and M.J.
+ Dodge, "Optical Materials Characterization, Final Technical
+ Report February 1, 1978 - September 30, 1978," Nat. Bur. Stand.
+ (U.S.), Tech. Note 993, (1979).
+ 23. A. Manabe, A. Mitsuishi and H. Yoshinaga, "Infrared lattice
+ reflection spectra of infrared compounds," Jpn. J. Appl. Phys. 6,
+ 593 (1967).
+ 24. T. Hattori, Y. Homma, and A. Mitsuishi, and M. Tacke,
+ "Indices of refraction of ZnS, ZnSe, ZnTe, CdS, and CdTe in the
+ far infrared," Opt. Commun. 7, 229 (1973).
+ 25. P.A. Miles, "Temperature dependence of multiphonon absorption
+ in zinc selenide," Appl. Opt. 16, 2891 (1977).
+ -ZnSe-ir
+ 34. A.R. Hilton and C.E. Jones, "The thermal change in the
+ nondispersive infrared refractive index of optical materials,"
+ Appl. Opt. 6, 1513 (1967).
+ 35. A. Hadni, J. Claudel, and P. Strimer, "Spectres d'absorption
+ et de réflexion, dans l'infrarouge lointain, de ZnSe, ZnTe et
+ CdSe à basse température," Phys. Stat. Solidi 26, 241 (1968).
+ 
+ -ZnTe
+ 1. Y. Horikoshi, A. Ebina, and T. Takahashi, "Optical absorption
+ due to acceptor levels in undoped ZnTe," Jpn. J. Appl. Phys. 11,
+ 992 (1972).
+ 4. B.L. Henke, P. Lee, J. Tanaka, P.L. Shimabukuro, and B.K.
+ Fujikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Atwood and B.L. Henke, eds.), p.
+ 146, A.I.P. Conf. Proc. No. 75, American Institute of Physics,
+ New York, (1981).
+ 8. M. Cardona and R. Haensel, "Optical properties of some
+ compound semiconductors in the 36-150-eV region," Phys. Rev. B 1,
+ 2605 (1970).
+ 15. D.T.F. Marple, "Refractive index of ZnSe, ZnTe, and CdTe," J.
+ Appl. Phys. 25, 539 (1964).
+ 20. G.A. Zholkevich, "The optical and photoelectrical properties
+ of zinc selenide and telluride," Sov. Phys. Solid State 2, 1009
+ (1960); Fiz. Tverd. Tela 2, 1115 (1960).
+ 23. A. Manabe, A. Mitsuishi and H. Yoshinaga, "Infrared lattice
+ reflection spectra of infrared compounds," Jpn. J. Appl. Phys. 6,
+ 593 (1967).
+ 24. T. Hattori, Y. Homma, and A. Mitsuishi, and M. Tacke,
+ "Indices of refraction of ZnS, ZnSe, ZnTe, CdS, and CdTe in the
+ far infrared," Opt. Commun. 7, 229 (1973).
+ 35. A. Hadni, J. Claudel, and P. Strimer, "Spectres d'absorption
+ et de réflexion, dans l'infrarouge lointain, de ZnSe, ZnTe et
+ CdSe à basse température," Phys. Stat. Solidi 26, 241 (1968).
+ 37. M. Cardona, "Infrared dielectric constant and ultraviolet
+ optical properties of solids with diamond, zinc belende,
+ wurtzite, and rocksalt structure," J. Appl. Phys. 36, 2181
+ (1965).
+ 44. T. Sliker and J.M. Jost, "Linear electro-optic effect and
+ refractive indices of cubic ZnTe," J. Opt. Soc. Am. 56, 130
+ (1966).
+ 47. B. Jensen and A. Torabi, "Dispersion of the refractive index
+ of InP and ZnTe," J. Appl. Phys. 54, 2030 (1983).
+ 50. J. Masso and A.F. Turner, Bausch and Lomb Inc., Final Report
+ on Development of Army Contract DA-44-009-AMC 124(T) (AD 600 264)
+ (1964).
+ 51. R.E. Nahory and H.Y. Fan, "Optical properties of zinc
+ telluride," Phys. Rev. 156, 825 (1967).
+ 
+ -Al2O3-A
+ 8. I.H. Malitson, F.V. Murphy, Jr., W.S. Rodney, "Refractive
+ index of synthetic sapphire," J. Opt. Soc. Am. 48, 72 (1958).
+ 9. A.S. Barker, Jr., "Infrared lattice vibrations and dielectric
+ dispersion in corundum," Phys. Rev. 132, 1474 (1963).
+ 10. F. Gervais and B. Piriou, "Anharmonicity in several-polar-
+ mode crystals: Adjusting phonon self-energy of LO and TO modes in
+ Al2O3 and TiO2 to fit infrared reflectivity," J. Phys. C -Solid
+ State Phys. 7, 2374 (1974).
+ 11. F. Gervais, D. Billard, and B. Piriou, Revue Internationale
+ des Hautes Temperatures et des Refractaires 12, 58 (1975).
+ 
+ -Al2O3-B
+ I. W.W. Ho, "High-temperature dielectric properties of
+ polycrystalline ceramics," MRS Symposium M, April 6, 1988.
+ II. E.V. Loewenstein, D.R. Smith and R.L. Morgan, "Optical
+ constants of far-infrared materials 2: Crystalline solids," Appl.
+ Opt. 12, 398 (1973). 
+ III. S. Roberts and D.D. Coon, "Far-infrared properties of quartz
+ and sapphire," J. Opt. Soc. Am., 52, 1023 (1962).
+ IV. M. Stead and G. Simonis, "Near millimeter wave
+ characterization of dual mode materials," Appl. Opt. 28, 1874
+ (1989).
+ V. M.E. Thomas, R.I. Joseph, G.J. Simonis, and M. Stead,
+ "Characterization of the infrared and far-infrared properties of
+ sapphire and quartz," in 13th Int. Conf. on Infrared and
+ Millimeter Waves, R.J. Temkin, ed., p. 339, SPIE Conf. Digest
+ 1039, (1988).
+ VI. M.E. Thomas and R.I. Joseph, "A Comprehensive Model for the
+ Intrinsic Transmission Properties of Optical Windows," in
+ Infrared Optical Materials, Proc. SPIE 929, 87 (1988).
+ VII. A.S. Barker, Jr., "Infrared lattice vibrations and
+ dielectric dispersion in corundum," Phys. Rev. 132, 1474 (1963).
+ VIII. F. Gervais, "Aluminum Oxide (Al2O3)," Handbook of Optical
+ Constants of Solids II, (E.D. Palik, ed.), p. 761, Academic
+ Press, Orlando, (1991).
+ IX. I.H. Malitson and M.J. Dodge, Refractive index and
+ birefringence of synthetic sapphire," J. Opt. Soc. Am. 62, 1405A
+ (1972); M.J. Dodge, "Refractive Index," in CRC Handbook of Laser
+ Science and Technology, Vol. IV, Optical Materials: Part 2, (M.J.
+ Weber, ed.), p. 21, CRC Press, Boca Raton, (1986).
+ X. M.E. Thomas, R.I. Joseph, and W.J. Tropf, "Infrared
+ transmission properties of sapphire, spinel, yttria and ALON as a
+ function of temperature and frequency," Appl. Opt. 27, 239
+ (1988); M.E. Thomas, "Temperature Dependence of the Complex Index
+ of Refraction," in Handbook of Optical Constants of Solids II,
+ (E.D. Palik, ed.), Chap. 8, p. 177, Academic Press, Orlando,
+ (1991).
+ XI. M.E. Innocenzi, R.T. Swimm, M. Bass, R.H. French, A.B.
+ Villaverde and M.R. Kokta, "Room-temperature optical absorption
+ in undoped a-Al2O3," J. Appl. Phys. 67, 7542 (1990).
+ XII. M.E. Thomas, W.J. Tropf and S. Gilbert, "Ultraviolet
+ absorption edge characterization of sapphire, spinel and ALON,"
+ Opt. Eng. 32, 1340 (1993).
+ 
+ -Al2O3-AP
+ 1. H.J. Hagemann, W. Gudat, and C. Kunz, "Optical constants fom
+ far infrared to the x-ray region: Mg, Al, Cu, Ag, Au, Bi, C, and
+ Al2O3," J. Opt. Soc. Am. 65, 742 (1975); DESY SR-74/7, Hamburg,
+ (1974).
+ 12. C.A. Worrel, "Infrared optical constants for CO2 laser
+ waveguide materials," J. Mater. Sci. 21, 781 (1986); private
+ communication, (1990).
+ 
+ -ALON
+ 2. N.D. Corbin, "Aluminum Oxynitride Spinel (ALON): A Review,"
+ U.S. Army Materials Technology Laboratory Report MTL MS 87-3,
+ July (1987).
+ 8. J. Bauer, L. Biste, and D. Bolze, "Optical properties of
+ aluminum nitride prepared by chemical and plasmachemical vapour
+ deposition," Phys. Stat. Solidi (a) 39, 173 (1977).
+ 10. R.J. Scheller. Schott Glass Technologies, Inc., personal
+ communication (Oct. 2, 1989).
+ 11. M.E. Thomas, R.I. Joseph, and W.J. Tropf, "Infrared
+ transmission properties of sapphire, spinel, yttria, and ALON as
+ a function of temperature and frequency," Appl. Opt. 27, 239
+ (1988).
+ 12. M.E. Thomas, "A computer code for modeling optical properties
+ of window materials," Proc. SPIE 1112, 260 (1989).
+ 13. M. Stead and G. Simonis, "Near millimeter wave
+ characterization of dual mode materials," Appl. Opt. 28, 1874
+ (1989).
+ 16. J.A. Detrio and P. Greason, University of Dayton, personal
+ communication (April 8, 1988).
+ 
+ -BaTiO3
+ 5. D. Bäuerle, W. Braun, V. Saile, G. Sprüssel, and E.E. Koch,
+ "Vacuum ultraviolet reflectivity and band structure of SrTiO3 and
+ BaTiO3," Z. Physik B 29, 179 (1978).
+ 7. S.H. Wemple, M. DiDomenico, Jr., and I. Camlibel, "Dielectric
+ and optical properties of melt-grown BaTiO3," J. Phys. Chem.
+ Solids 29, 1797 (1968).
+ 11. M. DiDomenico, Jr. and S.H. Wemple, "Optical properties of
+ perovskite oxides in their paraelectric and ferroelectric
+ phases," Phys. Rev. 166, 565 (1968).
+ 12. P.G. Schunemann, D.A. Temple, R.S. Hathcock, H.L. Tuller,
+ H.P. Jenssen, D.R. Gabbe, and C. Ward, "Role of iron centers in
+ the photorefractive effect in barium titanate," J. Opt. Soc. Am.
+ B 5, 1685 (1988).
+ 18. C. Hilsum, "Infrared transmission of barium titanate," J.
+ Opt. Soc. Am. 45, 771 (1955).
+ 19. S.H. Wemple and M. DiDomenico, Jr., "Behavior of the
+ electronic dielectric constant in covalent and ionic materials,"
+ Phys. Rev. B 3, 1338 (1971).
+ 20. J.L. Servoin, F. Gervais, A.M. Quittet, and Y. Luspin,
+ "Infrared and Raman responses in ferroelectric crystals; Apparent
+ inconsistancies," Phys. Rev. B 21, 2038 (1980). 
+ 21. J.A. Sanjurjo, R.S. Katiyar, and S.P.S. Porto, "Temperature
+ dependence of dipolar modes in ferroelectric BaTiO3 by infrared
+ studies," Phys. Rev. B 22, 2396 (1980).
+ 
+ -BeO-h
+ 4. H.W. Newkirk, D.K. Smith, and J.S. Kahn, "Synthetic Bromelite
+ III. Some optical properties," Am. Mineral. 51, 141 (1966).
+ 5. E. Loh, "Optical phonons in BeO crystals," Phys. Rev. 166, 673
+ (1968).
+ 6. M. Herzberger and C.D. Salzberg, "Refractive indices of
+ infrared optical materials and color correction of infrared
+ lenses," J. Opt. Soc. Am. 52, 420 (1962); M. Herzberger, "Colour
+ correction in optical systems and a new dispersion formula," Opt.
+ Acta 6, 197 (1959).
+ 
+ -BeO-cer
+ 8. C.A. Worrel, "Infrared optical constants for CO2 laser
+ waveguide materials," J. Mater. Sci. 21, 781 (1986); private
+ communication, (1990).
+ 
+ -CaF2
+ 41. R. Tousey, "Optical constants of fluorite in the extreme
+ ultraviolet," Phys. Rev. 50, 1057 (1936).
+ 42. I.H. Malitson, "A redetermination of some optical properties
+ of calcium fluoride," Appl. Opt. 2, 1103 (1963).
+ 50. K.V. Namjoshi, S.S. Mitra, B. Bendow, J.A. Harrington and
+ D.L. Stierwalt, "Frequency dependence of multiphonon infrared
+ absorption in the transparent regime of fluorite crystals," Appl.
+ Phys. Lett. 26, 41 (1975).
+ 51. W. Kaiser, W.G. Spitzer, R.H. Kaiser and L.E. Howarth,
+ "Infrared properties of CaF2, SrF2, and BaF2," Phys. Rev. 127,
+ 1950 (1962).
+ 52. L.V. Berman and A.G. Zhukov, "Optical properties of CaF2 in
+ the wavelength range 170 - 600 µ," Opt. Spectrosc. 19, 433
+ (1965); Opt. Spektrosk. 19, 783 (1965).
+ 53. D.R. Bosomworth, "Far-infrared optical properties of CaF2,
+ SrF2, BaF2, and CdF2," Phys. Rev. 157, 709 (1967).
+ 88. G. Stéphan, J.-C. Lemonnier, Y. Le Calvez and S. Robin,
+ "Polariseurs par reflexion pour l'ultraviolet lointain," Compt.
+ Rend. Acad. Sci. Paris B 262, 1272 (1966).
+ 89. "Optische Konstanten ausgewählter Krystalle; Flusspat
+ (Calciumfluorid) CaF2 (kubisch)," Landolt-Bornstein,
+ Physikalisch- Chemische Tabellen, (W.A. Roth and K. Scheel,
+ eds.), Table 167, p. 911, J. Springer, Berlin, (1923).
+ 90. F.F. Martens, "Ueber die Dispersion ultravioletter Strahlen,"
+ Ann. Phys. 6, 603 (1901).
+ 91. J.-C. Lemonnier, G. Stéphan and S. Robin, "Propriétés
+ optiques monocristaux clivés de LiF et de CaF2 dans l'ultraviolet
+ extrême," Compt. Rend. Acad. Sci. Paris B 261, 2463 (1965).
+ 
+ -C-film
+ 3. F.W. Smith, "Optical constants of a hydrogenated amorphous
+ carbon film," J. Appl. Phys. 55, 764 (1984).
+ 6. J.A. Woollam, B.N. De, S. Orzeszko, N.J. Ianno, P.G. Snyder,
+ S.A. Altervitz, J.J. Pouch, R.L.C. Wu, and D.C. Ingram,
+ "Diamondlike carbon applications in infrared optics and
+ microelectronics, in Properties and Characterization of Amorphous
+ Carbon Films, (J.J. Pouch and S.A. Altervitz, eds.), p. 577,
+ Material Science Forum 52, 53, Trans Tech Publications, Zurich,
+ (1990).
+ 24. S.A. Altervitz, R.M.Sieg, W.S. Shoemaker, and J.J. Pouch,
+ "Optical dispersion relations for "diamondlike" carbon films,"
+ Mater. Res. Soc. Sym. Proc. 152, 21 (1989).  
+ 28. J.A. Woollam, B.N. De, L.Y. Chen, J.J. Pouch, S.A. Altervitz,
+ "Diamondlike carbon as a moisture barrier and antireflection
+ coating on optical materials," Mater. Res. Soc. Symp. Proc. 152,
+ 27 (1989).
+ 33. N. Savvides, "Low energy ion-assisted deposition of a-C:H
+ films; a study of optical parameters with increasing
+ hydrogenation," in Amorphous Hydrogenated Carbon Films, (P. Koidl
+ and P. Oelhafen, eds.), p. 275, Les Editions de Physique, Paris, 
+ (1987); E-MRS Symposium Proceedings XVII.
+ 34. N. Savvides, "Optical constants and associated functions of
+ metastable diamondlike amorphous carbon films in the energy range
+ 0.5-7.3 eV," J. Appl. Phys. 59, 4133 (1986).
+ 35. N. Savvides, "Ion-assisted deposition and metastable
+ structures," Thin Solid Films 163, 13 (1988). 
+ 36. E.T. Arakawa, M.W. Williams,  and T. Inagaki, "Optical
+ properties of arc-evaporated carbon films between 0.6 and 3.8
+ eV," J. Appl. Phys. 48, 3176 (1977).
+ 37. E.T. Arakawa, S.M. Dolfini, J.C. Ashley, and M.W. Williams, "
+ Arc-evaporated carbon films: Optical properties and electron mean
+ free paths," Phys. Rev. B 31, 8097 (1985).
+ 
+ -CsI
+ 1. E.M. Dianov and N.A. Irisova, "Measurement of the refractive
+ index of crystals having NaCl- and CsCl-type structures," Sov.
+ Phys.-Solid State 8, 1807 (1967); Fiz. Tverd. Tela 8, 2265
+ (1967).
+ 2. V.P. Bystrov, Y.G. Goncharov, G.V. Kozlov and A.F.
+ Kupriyanenko, "Dielectric properties of optical crystals at
+ submillimeter wavelengths," Sov. Phys.-Tech. Phys. 31, 1206
+ (1986); Zh. Tekh. Fiz. 56, 2016 (1986).
+ 3. J.A.B. Beairsto and J.E. Eldridge, "Far-infrared measurements
+ of the optical properties of CsI between 12 and 300 oK, compared
+ with calculations based on cubic anharmonicity only," Can. J.
+ Phys. 51, 2550 (1973).
+ 4. P. Vergnat, J. Claudel, A. Hadni, P. Strimer and F.
+ Vermillard, "Constantes optiques de halogénures de césium a
+ basses températures dans l'infrarouge lointain," J. de Phys. 30,
+ 723 (1969) (data obtained from a Kramers-Kronig analysis).  
+ 5. Ibid. (data obtained from a Lorentz analysis).
+ 6. H.H. Li, "Refractive index of alkali halides and its
+ temperature derivatives," J. Phys. Chem. Ref. Data 5, 329 (1976).
+ 8. K.I. Said and G.W. Green, "Optical properties of caesium
+ iodide in the vacuum untraviolet," J. Phys. C: Solid State Phys.
+ 10, 479 (1977).
+ 9. B.L. Henke, P. Lee, T.J. Tanaka, R.L. Shimabukuro and B.K.
+ Fijikawa, "The atomic scattering factor, f1+f2, for 94 elements
+ and for the 100 to 2000 eV photon energy region," in Low Energy
+ X-Ray Diagnostics - 1981, (D.T. Attwood and B.L. Henke, eds.), p.
+ 340, AIP Conf. Proc. no. 75, American Institute of Physics, New
+ York, (1981).
+ 
+ -Cu2O
+ 8. M. O'Keeffe, "Infrared optical properties of cuprous oxide,"
+ J. Chem. Phys. 39, 1789 (1963).
+ 9. E.C. Heltemes, "Far infrared properties of cuprous oxide,"
+ Phys Rev. 141, 803 (1966).
+ 11. P. Dawson, M.M. Hargreave, and G.R. Wilkinson, "The
+ dielectric and lattice vibrational spectrum of cuprous oxide," J.
+ Phys. Chem. Solids 34, 2201 (1973).
+ 35. B. Karlsson, C.G. Ribbing, A. Roos, E. Valkonen, and T.
+ Karlsson, "Optical properties of some metal oxides in solar
+ absorbers," Physica Scripta 25, 826 (1982).
+ 39. Interpolated values of n.
+ 
+ -CuO
+ 35. B. Karlsson, C.G. Ribbing, A. Roos, E. Valkonen, and T.
+ Karlsson, "Optical properties of some metal oxides in solar
+ absorbers," Physica Scripta 25, 826 (1982).
+ 
+ -MgAl2O4
+ 2. D.W. Roy and J.L. Hastert, "Polycristalline MgAl2O4 (spinel)
+ for use as windows and domes from 0.3 to 6.0 micrometers," Proc.
+ SPIE 400, 37 (1983).
+ 18. K. Schlossmacher, "Absorption and refraction of the red,
+ blue, and violet spinels of Ceylon," Z. Kristallogr. 72, 447
+ (1930).
+ 20. K. Vedam, J.L. Kirk, and B.N.N. Achar, "Piezo- and thermo-
+ optic behavior of spinel (MgAl2O4)," J. Solid State Chem. 12, 213
+ (1975).
+ 21. N. Furutani, General Dynamics, Valley Systems Division,
+ personal communication (Oct. 5, 1989).
+ 22. R.J. Scheller, Schott Glass Technologies, Inc., personal
+ communication (June 20, 1989).
+ 39. M.E. Thomas, "A computer code for modelling optical
+ properties of window materials," Proc. SPIE 1112, 260 (1989).   
+ 40. C.C. Wang and P.J. Zanzucchi, "Dielectric and optical
+ properties of stoichiometric magnesium aluminate spinel singles
+ crystals," J. Electrochem. Soc. 118, 586 (1971).
+ 41. W.B. Westphal and J. Iglesias, "Dielectric Spectroscopy of
+ High-Temperature Materials," Air Force Materials Laboratory
+ Report AFML-TR-71-66, April (1971). (Available from NTIS as AD
+ 884597).
+ 42. M. Stead and G. Simonis, "Near millimeter wave
+ characterization of dual mode materials," Appl. Opt. 28, 1874
+ (1989).
+ 43. W.W. Ho, "High-temperature dielectric properties of
+ polycrystalline ceramics," in MRS Symposium M, Reno (April 6,
+ 1988).
+ 44. J.A. Detrio and P. Greason, University of Dayton, personal
+ communication (April 8, 1988).
+ 
+ -MgF2
+ 12. D.L. Steinmetz, W.G. Phillips, M. Wirick, and F.F. Forbes,
+ "Polarizer in th vacuum ultraviolet," Appl. Opt. 6, 1061 (1967).
+ 19. W.F. Hanson, E.T. Arakawa and M.W. Williams, "Optical
+ properties of MgO and MgF2 in the extreme ultraviolet region," J.
+ Appl. Phys. 43, 1661 (1972).
+ 20. M.W. Williams, F.A. MacRae, and E.T. Arakawa, "Optical
+ properties of magnesium fluoride in the vacuum ultraviolet," J.
+ Appl. Phys. 38, 1701 (1967).
+ 21. G. Stéphan, Y. Le Calvez, J.C. Lemonnier, and S. Robin,
+ "Properties optiques et spectre electronique du MgF2 et du CaF2
+ de 10 a 48 eV," J. Phys. Chem. Solids 30, 601 (1969).
+ 22. J. Thomas, G. Stéphan, J.-C. Lemonnier, M. Nisar, and S.
+ Robin, "Optical Anisotropy of MgF2 in  its UV absorption region,"
+ Phys. Stat. Solidi (b) 56, 163 (1973).
+ 23. M.W. Williams and E.T. Arakawa, "Optical properties of
+ crystalline MgF2 from 115 to 400 nm," Appl.Opt. 18, 1477 (1979).
+ 27. M.J. Dodge, "Refractive properties of magnesium fluoride,"
+ Appl. Opt. 23, 1980 (1984).,
+ 47. V.P. Bystrov, Y.G. Goncharov, G.V. Kozlov, and A.F.
+ Kupriyanenko, "Dielectric properties of optical crystals at sub
+ millimeter wavelengths," Sov. Phys. Tech. Phys. 31, 1206 (1986);
+ Zh. Tekh. Fiz. 56, 2016 (1986).
+ 49. J. Fontanella, C. Andeen, and D. Schuele, "Low frequency
+ dielectric constants of a-quartz, sapphire, MgF2, and MgO," J.
+ Appl. Phys. 45, 2852 (1974).
+ 51. M.E. Thomas, "A computer code for modeling optical properties
+ of window materials," Proc. SPIE 1112, 260 (1989).
+ 
+ -MgO
+ 2. K. Maeda, M. Uda and Y. Hayasi, "Oxygen K-a emission spectra
+ free from multiple-vacancy satellites," Phys. Lett. 112A, 431
+ (1985).
+ 32. H. Weber, "Die Verfärbung von MgO-Kristallen durch
+ gittereigene Bausteine," Z. Physik 130, 392 (1951).
+ 33. P.D. Johnson, "Some optical properties of MgO in the vacuum
+ ultraviolet," Phys. Rev. 94, 845 (1954).
+ 34. W.T. Peria, "Optical absorption and photoconductivity in
+ magnesium oxide crystals," Phys. Rev. 112, 423 (1958).
+ 36. C. Ballesteros, R. Gonzalez, S.J. Pennycook and Y. Chen,
+ "Optical and analytical transmission-electron-microscopy studies
+ of thermo-chemically reduced MgO crystals," Phys. Rev. B 38, 4231
+ (1988).
+ 37. J.A. Harrington, B.L. Bobbs, M. Braunstein, R.K. Kim, R.
+ Stearns and R. Braunstein, "Ultraviolet-visible absorption in
+ highly transparent solids by laser calorimetry and wavelength
+ modulation spectroscoy," Appl. Opt. 17, 1541 (1978).
+ 41. N.C. Fernelius, R.J. Harris, D.B. O'Quinn, M.E. Gangl, D.V.
+ Dempsey and W.L. Knecht, "Some optical properties of materials
+ measured at 1.3 µm," Opt. Eng. 22, 411 (1983).
+ 42. A. Hordvik and L. Skolnik, "Photoacoustic measurements of
+ surface and bulk absorption in HF/DF laser window materials,"
+ Appl. Opt. 16, 2919 (1977).
+ 54. R.E. Stephens and I.H. Malitson, "Index of refraction of
+ magnesium oxide," J. Research Nat. Bur. Stand. 49, 249 (1952). 
+ 56. M.J. Dodge, "Refractive Index," in CRC Handbook of Laser
+ Science and Technology, Vol. IV, Optical Materials: Part 2, (M.J.
+ Weber, ed.), p. 21, CRC Press, Boca Raton, (1986).
+ 58. Norton Company Refractories Division, Report #P-1.5-1, March
+ 1, 1962; See also A.J. Moses, "Refractive Index of Optical
+ Materials in the Infrared Region," EPIC Report DS-1966 (January
+ 1970), Hughes Aircraft Company, Culver City, California,
+ Government Report AD 704555 (1970).
+ 59. M. Herzberger and C.D. Salzberg, "Refractive indices of
+ infrared optical materials and color correction in infrared
+ lenses," J. Opt. Soc. Amer. 52, 420 (1962).
+ 77. B. Piriou and F. Cabannes, "Validité de la méthode de
+ Kramers-Kronig et appplication à la dispersion infrarouge de la
+ magnésie," Optica Acta 15, 271 (1968).
+ 78. E. Duesler, "The Kramers-Kronig Dispersion Analysis of MgO
+ Infrared Reflectance Data," M.S. Thesis, University of Hawaii
+ (1968).
+ 83. D. Billard, J.-L. Servoin, F. Gervais and B. Piriou, "High
+ temperature conventional and Fourier-transform infrared
+ spectroscopy of vibrational states in oxide crystals," High Temp.
+ High Pressures 11, 415 (1979).
+ 85. J.T. Gourley and W.A. Runciman, "Multiphonon infrared
+ absorption spectra of MgO and CaO," J. Phys. C: Solid State Phys.
+ 6, 583 (1973).
+ 86. B. Piriou and F. Cabannes, "Absorption infrarouge de la
+ magnésie," Compt. Rend. Acad. Sci. Paris 264B, 630 (1967).
+ 91. R.F. Rowntree, "Measurements of the Optical Constants of
+ Magnesium Oxide and Calcium Tungstate (spectral region between 10
+ cm-1 and 100 cm-1 at 300K and 90K)," Ph.D. Thesis, Ohio State
+ University (1963); also Ohio State Univ. Sci. Report 4 (1963) and
+ AFCRL-63-454.
+ 93. D.R. Huffman and W. Kratschmer, private communication (1989).
+ 96. Based on present analysis of optical density data above 
+ 80 eV and a Kramers-Kronig analysis of composite reflectance
+ spectra at lower energies (see text).
+ 
+ -C2H4-pol.ref
+ 1. J.J. Ritsko, "Electron energy loss spectroscopy of pristine
+ and radiation damaged polyethylene," J. Chem. Phys. 70, 5343
+ (1979).
+ 7. L.R. Painter, E.T. Arakawa, M.W. Williams and J.C. Ashley,
+ "Optical properties of polyethylene: Measurement and
+ applications," Rad. Res. 83, 1 (1980).
+ 9. S.L. Aggarawal, in Polymer Handbook, Interscience, New York,
+ PVI-41 (1967).
+ 13. J. Ashok, P. Varaprasad, and S. Avadhani, unpublished data.
+ 15. J.R. Nielsen and A.H. Woollett, "Vibrational spectra of
+ polyethylenes and related substances," J. Chem. Phys. 26, 1391
+ (1957).
+ a.  n = 1.5 was assumed constant from 5800 down to 670 cm-1 for
+ the calculation of k.
+ b.  Low-density polyethylene data (LDPE).
+ c.  High-density polyethylene data (HDPE). 
+ 25. J.R. Birch, J.D. Dromey, and J. Lesurf, "The optical
+ constants of some common low-loss polymers between 4 and 40 
+ cm-1," Infrared Phys. 21, 225 (1981).
+ 35. J.R. Birch, "The far infrared optical constants of
+ polyethylene," Infrared Phys. 30, 195 (1990).
+ 41. G.W. Chantry, J.W. Fleming, P.M. Smith, M. Cudby, and H.A.
+ Willis, "Far infrared and millimetre-wave absorption spectra of
+ some low-loss polymers," Chem. Phys. Lett. 10, 473 (1971).
+ 
+ -KBr
+ 2. J.C. Owens, "Anharmonicity and millimeter-wave absorption in
+ alkali halide crystals," Phys. Rev. 181, 1228 (1969).
+ 5. M. Sparks, D.F. King and D.L. Mills, "Simple theory of
+ microwave absorption in alkali halides," Phys. Rev. B 26, 6987  
+ (1982).
+ 6. K.W. Johnson and E.E. Bell, "Far-infrared optical properties
+ of KCl and KBr," Phys. Rev. 187, 1044 (1969).
+ 7. T.F. Deutsch, "Absorption coefficient of infrared laser window
+ materials," J. Phys. Chem. Solids 34, 2091 (1973).
+ 9. J.M. Rowe and J.A. Harrington, "Surface and bulk absorption in
+ KCl, KBr, and NaCl as a function of temperature and CO2 laser
+ frequencies," Proc. 5th Annual Conf. Infrared Laser Window
+ Materials, (C.R. Andrews and C.L. Strecker, eds.), p. 825,
+ Defense Advanced Research Projects Agency, p. 825, Feb. 1976;
+ "Extrinsic absorption in KCl and KBr at CO2 laser frequencies,"
+ J. Appl. Phys. 47, 4926 (1976); and private communication.
+ 11. H.H. Li, "Refractive index of alkali halides and its
+ temperature derivatives," J. Phys. Chem. Ref. Data 5, 329 (1976).
+ 13. T. Tomiki, T. Miyata and H. Tsukamoto, "The Urbach rule for
+ the sodium- and potassium-halides," Z. Naturforsch. 29a, 145
+ (1974).
+ 14. T. Tomiki, T. Miyata and H. Tsukamoto, "Temperature
+ dependence of the fundamental spectra of potassium halides in the
+ Schumann ultraviolet region (4.4-135 eV)," J. Phys. Soc. Jpn.
+ 35,495 (1973); and private communication.
+ 15. M. Antinori, A. Balzarotti and M. Piacentini, "High
+ resolution reflection spectra alkali halides in the far
+ ultraviolet," Phys. Rev. B 7, 1541 (1973).
+ 16. D. Blechschmidt, R. Klucker, and M. Skibowski, "Dielectric
+ properties of KCl, KBr, and KI single crystals in the extreme
+ ultraviolet up to 35 eV," Phys. Stat. Solidi (b) 36, 625 (1969).
+ 17. G. Stéphan, E. Garignon and S. Robin, "Spectres électroniques
+ du KBr dans l'ultraviolet extrême," Compt. Rend. Acad. Sci. Paris
+ B 268, 408 (1969).
+ 18. F.C. Brown, C. Gahwiller, H. Fujita, A.B. Kung, W. Scheifley
+ and N. Carrera, "Extreme ultraviolet spectra of ionic crystals,"
+ Phys. Rev. B 2, 2126 (1970).
+ 
+ -KDP
+ 1. F. Zernike, "Refractive indices of ammonium dihydrogen
+ phosphate and potassium dihydrogen phosphate between 2000 Å and
+ 1.5 µm," J. Opt. Soc. Am. 54, 1215 (1964).
+ 4. K.W. Kirby and L.G. DeShazer, "Refractive indices of 14
+ nonlinear crystals isomorphic to KH2PO4," J. Opt. Soc. Am. B4,
+ 1072 (1987).
+ 
+ -KDDP
+ 4. K.W. Kirby and L.G. DeShazer, "Refractive indices of 14
+ nonlinear crystals isomorphic to KH2PO4," J. Opt. Soc. Am. B4,
+ 1072 (1987).
+ 
+ -ADP
+ 1. F. Zernike, "Refractive indices of ammonium dihydrogen
+ phosphate and potassium dihydrogen phosphate between 2000 Å and
+ 1.5 µm," J. Opt. Soc. Am. 54, 1215 (1964).
+ 4. K.W. Kirby and L.G. DeShazer, "Refractive indices of 14
+ nonlinear crystals isomorphic to KH2PO4," J. Opt. Soc. Am. B4,
+ 1072 (1987).
+ 
+ -ADDP
+ 4. K.W. Kirby and L.G. DeShazer, "Refractive indices of 14
+ nonlinear crystals isomorphic to KH2PO4," J. Opt. Soc. Am. B4,
+ 1072 (1987).
+ 
+ -NaF
+ 1. D. Fabre, J. Romand and B. Vodar, "Constantes optiques et
+ pouvoir réflecteur de couches minces de fluorures dans
+ l'ultraviolet lointain," J. de Phys. (Paris) 25, 55 (1964).
+ 2. T. Tomiki and T. Miyata, "Optical studies of alkali fluorides
+ and alkaline fluorides in VUV region," J. Phys. Soc. Jpn. 27, 658
+ (1969).
+ 3. K. Navrátil and I. Ohlídal, unpublished results.
+ 4. A. Kublitzky, "Einege optische Konstanten von
+ Alkalihalogenidkristallen," Ann. Phys. 20, 793 (1934).
+ 5. H. Harting, "The index of refraction of some halide crystals,"
+ Sitzungsber. Deutsch. Akad. Wiss. Ber. 4, 1  (1948).
+ 6. H.W. Hohls, "Über Dispersion und Absorption von Lithiumfluorid
+ und Natriumfluorid im ultraroten," Ann. Phys. 29, 433 (1937).
+ 7. K.F. Pai, T.J. Parker, N.E. Tornberg, R.P. Lowndes, and W.G.
+ Chambers, "Determination of the complex refractive indices of
+ solids in the far-infrared by dispersion Fourier transform
+ spectroscopy - I. Alkali halides," Infrared Phys. 18, 199 (1978). 
+ 9. H.K. Pulker, "Characterization of optical thin films," Appl.
+ Opt. 18, 1969 (1979). 
+ 
+ -SrTiO3
+ 7. J.L. Servoin, Y. Luspin, and F. Gervais, "Infrared dispersion
+ in SrTiO3 at high temperature," Phys. Rev. B 22, 5501 (1980).
+ 11. M. Cardona, "Optical properties and band structure of SrTiO3
+ and BaTiO3," Phys. Rev. 140, A651 (1965).
+ 13. D. Bäuerle, W. Braun, V. Saile, G. Sprüssel, and E.E. Koch,
+ "Vacuum ultraviolet reflectivity and band structure of SrTiO3 and
+ BaTiO3," Z. Physik B 29, 179 (1978).
+ 17. A.S. Barker, Jr., and J.J. Hopfield, "Coupled-optical-phonon-
+ mode theory of the infrared dispersion in BaTiO3, SrTiO3 and
+ KTaO3," Phys. Rev. 135, A1732 (1964).
+ 
+ -ThF4
+ 3. W. Heitmann and E. Ritter, "Production and properties of
+ vacuum evaporated films of thorium fluoride," Appl. Opt. 7, 307
+ (1968).
+ 11. A. Heisen, "Die Bestimmung der Brechungsindizes einiger
+ Fluoridaufdamps-und Kohlesschichten," Optik 18, 59 (1961).
+ 12. H.K. Pulker, "Optical losses in dielectric films," Thin Solid
+ Films 34, 343 (1976).
+ 14. J. Mouchart, G. Lagier and B. Pointu, "Détermination des
+ constantes optiques n et k de materiaux faiblement absorbants," 
+ Appl. Opt. 24, 1808 (1985).
+ 16. M.E. Pedinoff, M. Braunstein and O.M. Stafsudd, "Refractive
+ indices of infrared materials: 10.6 µm ellipsometer
+ measurements," Appl. Opt. 16, 1849 (1977).
+ 17. S.Y. Kim and K. Vedam, "Simultaneous determination of
+ dispersion relation and depth profile of thorium fluoride thin
+ film by spectroscopic ellipsometry," Thin Solid Films 166, 325
+ (1988).
+ 21. P.H. Lissberger, "Optical applications of dielectric thin
+ films," Rep. Prog. Phys. 33, 197 (1970).
+ 
+ -H2O
+ 72. D.J. Segelstein, "The Complex Refractive Index of Water,"
+ M.S. Thesis, University of Missouri-Kansas City, (1981).
+ 80. D.M. Wieliczka, S. Weng, and M.R. Querry, "Wedge shaped cell
+ for highly absorbent liquids: Infrared optical constants of
+ water," Appl. Opt. 28, 1714 (1989).
+ 
+ -Y2O3
+ 16. T. Tomiki, J. Tamashiro, Y. Tanahara, A. Yamada, H. Fukutani,
+ T. Miyahara, H. Kato, S. Shin, and M. Ishegame, "Optical spectra
+ of Y2O3 single crystals in VUV," J. Phys. Soc. Jpn. 55, 4543
+ (1986).
+ 17. Y. Nigara, "Measurement of the optical constants of yttrium
+ oxide," Jpn. J. Appl. Phys. 7, 404 (1968).
+ 18. L.G. DeShazer, S.C. Rand, and B.A. Wechsler, "Laser
+ Crystals," in CRC Handbook of Laser Science and Technology, Vol.
+ V: Optical Materials; Part 3: Applications Coatings and
+ Fabrication, (M.J. Weber, ed.), p. 288, CRC Press, Boca Rotan, 
+ (1988).
+ 35. M.E. Thomas, "A computer code for modelling optical
+ properties of window materials," Proc. SPIE 1112, 260 (1989).   
+ 36. M. Stead and G. Simonis, "Near millimeter wave
+ characterization of dual mode materials," Appl. Opt. 28, 1874
+ (1989).
+ 38. G.R. Hyde, "Dielectric properties of sintered yttrium oxide,"
+ J. Am. Ceram. Soc. 54, 535 (1971).
+ 40. J.A. Detrio and P. Greason, University of Dayton, personal
+ communication (April 8, 1988).
+ NEWREFS.ASC: Additional new or overlooked papers for materials in
+ HOCI and II.  02-27-95. 
+ 
+ 
+ Copyright (c) 1995 by the Optical Society of America.
+ 
+ 
+ Metals:
+ M. Yamamoto and T. Namioka, "In situ ellipsometric study of
+ optical properties of ultrathin films," Appl. Opt. 31, 1612
+ (1992). (C, Si, Ni, Nb, Mo, Ru, Rh, Pd, Ag, W, Re, Au)
+ 
+ D.L. Windt, "XUV optical constants of single-crystal GaAs and
+ sputtered C, Si, Cr3C2, Mo, and W," Appl. Opt. 30, 15 (1991).
+ 
+ D.L. Windt, W.C. Cash, Jr., M. Scott, P. Arendt, B. Newnam, R.F.
+ Fisher, and A. B. Swartzlander, "Optical constants for thin films
+ of Ti, Zr, Nb, Mo, Ru, Rh, Pd, Ag, Hf, Ta, W, Re, Ir, Os, Pt, and
+ Au from 24 Å to 1216 Å," Appl. Opt. 27, 246 (1988).
+ 
+ Semiconductors:
+ J. Geist, A. Migdall, and H. Baltes, "Shape of the silicon
+ absorption coefficient spectrum near 1.63 eV," Appl. Opt. 29,
+ 3548 (1990).
+ 
+ J. Geist, A. Migdall, and H.P. Baltes, "Analytic representation
+ of the silicon absorption coefficient in the indirect transition
+ region," Appl. Opt. 27, 3777 (1988).
+ 
+ H.A. Weakliem and D. Redfield, "Temperature dependence of the
+ optical properties of silicon," J. Appl. Phys. 50, 1491 (1979).
+ 
+ J. Geist, A.R. Schaefer, J.-F. Song, Y.H. Wang, and E.F.
+ Zalewski, "An accurate value for the absorption cofficient of
+ silicon at 633 nm," J. Res. Nat. Inst. Stand. Tecnhnol. 95, 549
+ (1990).
+ 
+ G.E. Jellison, Jr., and F.A. Modine, "Optical functions of
+ silicon at elevated temperatures," J. Appl. Phys. 76, 3758
+ (1994). 
+ 
+ G.E. Jellison, Jr., "Optical functions of silicon determined by
+ two-channel polarization modulation ellipsometry," Opt. Mater. 1,
+ 41, (1992).
+ 
+ G.E. Jellison, Jr. and F.A. Modine, "Optical functions of silicon
+ between 1.7 and 4.7 eV at elevated temperatures," Phys. Rev. B27,
+ 7466 (1983); "Optical absorption of silicon between 1.6 and 4.7
+ eV at elevated temperatures," Appl. Phys. Lett. 41, 180 (1992).
+ 
+ J.F. Seely, W.R. Hunter, J.C. Rife, and M.P. Kowalski, 
+ "Optical constants of thin silicon films near the silicon L2,3
+ absorption edge," Appl. Opt. 31, 7367 (1992).
+ 
+ G.E. Jellison, Jr., T.E. Haynes, and H.H. Burke, "Optical
+ functions of silicon-germanium alloys determined using
+ spectroscopic ellipsometry," Opt. Mater. 2, 105 (1993).
+ 
+ S. Chen, R. Jiang, and D. Mo, "Ultraviolet-visible ellispometric
+ spectra and optical constants of sputtered amorphous silicon,"
+ Acta Optica Sinica 4, 49 (1984).
+ 
+ G.E. Jellison, Jr., "Optical functions of GaAs, GaP, and Ge
+ determined by two-channel polarization modulation ellipsometry,"
+ Opt. Mater. 1, 151 (1992). 
+ 
+ D.B. Chenault and R.A. Chipman, "Infrared birefringence spectra
+ for cadmium sulfide and cadmium selenide," Appl. Opt. 32, 4223
+ (1993).
+ 
+ M. Schäffner, X. Bao, and A. Penzkofer, "Principal optical
+ constants measurement of uniaxial crystal CdSe in the wavelength
+ region between 380 and 950 nm," Appl. Opt. 31, 4546 (1992).
+ 
+ W.J. Moore, "Errors in film refractive-index determinations from
+ interference fringes," Appl. Opt. 33, 4164 (1994); (3C-SiC
+ films).
+ 
+ J.B. Kortright and D.L. Windt, "Amorphous silicon carbide
+ coatings for extreme ultraviolet optics," Appl. Opt. 27, 2841
+ (1988).
+ 
+ C. Junhao and M. Zhengyu, "Absorption and reflection spectra of
+ HgCdTe," Chinese J. Infrared Millimeter Waves, 8, 91 (1989). 
+ 
+ Insulators:
+ L. Kou, D. Labrie, and P. Chylek, "Refractive indices of water
+ and ice in the 0.65 to 2.5-µm spectral range," Appl. Opt. 32,
+ 3531 (1993).
+ 
+ S. Cunsolo, P. Dore, and C.P. Varsamis, "Refractive index of
+ crystals from transmission and reflection measurements: MgO in
+ the far-infrared region," Appl. Opt. 31, 4554 (1992).
+ 
+ J. Nithianandam and J.C. Rife, "Synchrotron x-ray optical
+ properties of natural diamond," Phys. Rev. B47, 3517 (1993).
+ 
+ G. Davies, A.T. Collins, and P. Spear, "Sharp infrared absorption
+ lines in diamond," Solid State Commun. 49, 433 (1984).
+ 
+ X. Gerbaux, A. Hadni, M. Tazawa, and J.C. Villegier, "Far-
+ infrared spectra of magnesium oxide," Appl. Opt. 33, 57 (1994).
+ 
+ Y. Pastol, G. Arjavalingam, G.V. Kopcsay, and J.-M. Halbout,
+ "Dielectric properties of uniaxial crystals measured with
+ optoelectronically generated microwave transient radiation,"
+ Appl. Phys. Lett. 55, 2277 (1989); (Al2O3, x-SiO2).
+ 
+ R.T. Swimm, Y. Xiao, and M. Bass, "Calorimetric study of optical
+ absorption of Suprasil W-1 fused quartz at visible, near-IR and
+ near-UV wavelengths," Appl. Opt. 24, 322 (1985).
+ 
+ M.L. Lang and W.L. Wolfe, "Optical constants of fused silica and
+ sapphire from 0.3 to 25 µm," Appl. Opt. 22, 1267 (1983).
+ 
+ E.E. Khawaja and F. Bouamrane, "Determination of the optical
+ constants (n,k) of thin dielectric films," Appl. Opt. 32, 1168
+ (1993). (deposited TiO2).
+ 
+ U. Schlarb and K. Betzler, "Refractive indices of lithium niobate
+ as a function of wavelength and composition," J. Appl. Phys. 73,
+ 3472 (1993).
+ 

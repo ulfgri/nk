@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# shell script for cleaning up 
+#
+rm -f `find . -name \*.nkb -or -name \*~`
