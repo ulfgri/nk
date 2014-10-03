@@ -19,6 +19,13 @@ and quality of the data is not known to me. I have reformatted the
 files to make them easier to read.
 
 
+coatings
+--------
+A collection of refractive index data for materials in thin film coatings.
+The file headers of the data files should contain information about the
+coating processes, parameters, and conditions.
+
+
 windt
 -----
 A collection of refractive index data that are distributed by David
