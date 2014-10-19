@@ -1,10 +1,10 @@
-% Refractive index of Parylene
-%
-% R. Machorro, E.L. Regalado, J.M. Siqueiros,
-% "Optical properties of parylene and its use as substrate
-% in beam splitters", Appl. Opt. 30, 2778-2781 (1991)
-%
-% lambda/um    n        k
+; Refractive index of Parylene
+;
+; R. Machorro, E.L. Regalado, J.M. Siqueiros,
+; "Optical properties of parylene and its use as substrate
+; in beam splitters", Appl. Opt. 30, 2778-2781 (1991)
+;
+; lambda/um    n        k
 0.3050  2.2213  0.691
 0.3075  2.2104  0.657
 0.3100  2.1978  0.453
