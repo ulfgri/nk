@@ -1,3 +1,8 @@
+2014-December-02, Ulf Griesmann
+- added better data set for Brewer Science WiDE-C bottom
+  antireflection coating
+- added indices for sputter coated SiO2 and TiO2
+
 2014-September-30, Ulf Griesmann
 - renamed analyic/n_sodalime_glass.m --> n_sodalime.m
 - fixed and updated the README
