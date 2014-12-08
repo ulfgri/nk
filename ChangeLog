@@ -1,7 +1,8 @@
-2014-December-02, Ulf Griesmann
+2014-December-08, Ulf Griesmann
 - added better data set for Brewer Science WiDE-C bottom
   antireflection coating
 - added indices for sputter coated SiO2 and TiO2
+- renamed data for MicroChem LOR type A resist
 
 2014-September-30, Ulf Griesmann
 - renamed analyic/n_sodalime_glass.m --> n_sodalime.m
