@@ -1,4 +1,8 @@
-- 2015-April-15, Ulf Griesmann
+2015-May-14, Ulf Griesmann
+- added data for the ma-N1400 negative i-line and e-beam resist
+  from Micro Resist Technology, GmbH
+      
+2015-April-15, Ulf Griesmann
 - much improved dataset for litho/BARLi_II (VASE measurement)
 - new VASE measurements for litho/S1800 photoresist
 
