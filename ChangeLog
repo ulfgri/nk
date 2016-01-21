@@ -1,3 +1,6 @@
+2016-Jan-21, Ulf Griesmann
+- add refractive index data for KemLab image reversal resist (KLIR).
+
 2015-Dec-20, Ulf Griesmann
 - add Sellmeier formula for AZ Aquatar to enable
   extrapolation of data from data sheet to visible wavelengths.
